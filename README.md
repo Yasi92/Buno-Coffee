@@ -1,4 +1,4 @@
-#Milestone Project 1
+# Milestone Project 1
 ## Buno Coffee Website
 
 <!-- buno coffee's website in action (here place the link)-->
