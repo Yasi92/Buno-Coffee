@@ -28,9 +28,6 @@ h2 {
 }
 
 
-
-
-
 /* ------------------------------------------------------------------------navbar */
 
 
@@ -93,7 +90,9 @@ header {
 }
 
 #hamnav label, #hamburger { display: none; }
+/* ------------------------------------------------------------------------@media */
 
+/* Hemburger-menu is inspired from [https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/] but customized with my own style*/
 
 @media screen and (max-width: 768px){
 
@@ -155,6 +154,17 @@ header {
     #hamnav input:checked ~ #menu { display: block; }
   }
   
+
+
+
+
+
+
+
+
+
+
+
 
 
 
