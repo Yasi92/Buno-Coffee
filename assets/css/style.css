@@ -154,6 +154,25 @@ header {
     #hamnav input:checked ~ #menu { display: block; }
   }
   
+/* ------------------------------------------------------------------------images */
+
+.landing-pg-img {
+    clear: both;
+    display: block;
+    
+}
+
+.container {
+    margin: 8rem 40px;
+}
+
+.welcome-txt {
+   text-align: center;
+   font-weight: 300;
+   padding: 100px 50px;
+}
+
+
 
 
 
