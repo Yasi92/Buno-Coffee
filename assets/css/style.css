@@ -33,16 +33,12 @@ h2 {
 
 
 header {
-    width: 100%;
+    width:100vw;
     height: 4rem;
     background-color: rgba(136, 132, 82, 0.5);
     position:static;
     top: 0;
-    left: 0;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-   
-    
-    
+    left: 0;    
 }
 
 #menu {
@@ -55,6 +51,7 @@ header {
     font-weight: 400;
     float: right;
     margin: 0;
+    
     
     
     
@@ -74,6 +71,7 @@ header {
     -webkit-transition-property: transform;
     transition-property: transform;
     padding-bottom: 10px;
+    text-transform: uppercase;
 
 }
 
@@ -91,11 +89,65 @@ header {
 }
 
 #hamnav label, #hamburger { display: none; }
-/* ------------------------------------------------------------------------@media */
+
 
 /* Hemburger-menu is inspired from [https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/] but customized with my own style*/
 
-@media screen and (max-width: 768px){
+
+  
+/* ------------------------------------------------------------------------images */
+
+
+.landing-pg-img{
+    padding: 3rem 0 0 3rem;
+   
+
+}
+
+div .welcome-txt{
+   text-align: center;
+   font-weight: 300;
+   padding: 5% 3%;
+   position: relative;
+   right: -3rem;
+   
+}
+
+
+.welcome-txt > h3{
+   padding-bottom: 35px;
+   font-size: 1.9rem;
+   text-align: center;
+
+}
+
+.welcome-txt > p{
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact-us {
+    clear: both;
+}
+/* ------------------------------------------------------------------------@media */
+
+@media screen and (max-width: 890px){
 
     #hamnav label { 
       display: block; 
@@ -122,6 +174,7 @@ header {
       top: 4rem;
       right: 0;
       background-color: #3B3B2F;
+      z-index: 2;
     }
 
     #menu li a{
@@ -153,62 +206,40 @@ header {
   
     #menu { display: none; }
     #hamnav input:checked ~ #menu { display: block; }
+
+    .welcome-txt > p{
+        text-align: left;
+    }
+
+    .row{
+        overflow:hidden;
+        position: relative;
+        right: 4%;
+    }
+
+ 
+
+
   }
-  
-/* ------------------------------------------------------------------------images */
 
-.container{
-      margin:2em auto;
-      
-   
-}
+  @media screen and (max-width: 403px){
+    .welcome-txt > p{
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        line-height: 1.5;
 
-
-
-
-.landing-pg-img{
-    padding: 0;
-
-
+    }
     
-    
-}
+    .welcome-txt > h3{
+        padding-bottom: 20px;
+        
+     
+     }
 
-div .welcome-txt{
-   text-align: center;
-   font-weight: 300;
-   padding: 50px 50px;
-   
-   
-}
+     .row{
+        overflow: hidden;
+    }
+     
 
-
-.welcome-txt > h3{
-   padding-bottom: 30px;
-
-}
-
-.welcome-txt > p{
-    font-weight: 400;
-    font-size: 20px;
-    text-align: justify;
-    line-height: 1.7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#contact-us {
-    clear: both;
-}
+  }
