@@ -7,6 +7,8 @@
     border: 0;
 
 }
+
+
 /* ------------------------------------------------------------------------logo */
 
 
@@ -24,6 +26,7 @@ h2 {
     padding-left: 30px;
     font-weight: 400;
     margin: 0;
+    font-size: 180%;
     
 }
 
@@ -43,7 +46,7 @@ header {
 
 #menu {
     list-style-type: none;
-    font-size: 130%;
+    font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
     line-height: 4rem;
@@ -97,17 +100,10 @@ header {
   
 /* ------------------------------------------------------------------------images */
 
-
-.landing-pg-img{
-    padding: 3rem 0 0 3rem;
-   
-
-}
-
 div .welcome-txt{
    text-align: center;
    font-weight: 300;
-   padding: 5% 3%;
+   padding: 3% 0;
    position: relative;
    right: -3rem;
    
@@ -115,21 +111,25 @@ div .welcome-txt{
 
 
 .welcome-txt > h3{
-   padding-bottom: 35px;
-   font-size: 1.9rem;
+   padding-bottom: 3vh;
+   font-size: 1.5rem;
    text-align: center;
 
 }
 
 .welcome-txt > p{
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: justify;
     line-height: 1.8;
 }
 
 
 
+.row{
+    /* margin-top: 20px; */
+    overflow-x: hidden;
+}
 
 
 
@@ -207,39 +207,29 @@ div .welcome-txt{
     #menu { display: none; }
     #hamnav input:checked ~ #menu { display: block; }
 
-    .welcome-txt > p{
-        text-align: left;
+
+
+    div .welcome-txt {
+        position:unset;
+        padding: 10%;
+    }
+
+
+    .welcome-txt >p {
+        font-size: 1rem;
+    }
+
+    .welcome-txt > h3{
+        font-size: 1.4rem;
     }
 
     .row{
         overflow:hidden;
-        position: relative;
-        right: 4%;
     }
 
- 
-
+    #logo{
+        font-size: 150%;
+    }
 
   }
 
-  @media screen and (max-width: 403px){
-    .welcome-txt > p{
-        font-weight: 400;
-        font-size: 18px;
-        text-align: left;
-        line-height: 1.5;
-
-    }
-    
-    .welcome-txt > h3{
-        padding-bottom: 20px;
-        
-     
-     }
-
-     .row{
-        overflow: hidden;
-    }
-     
-
-  }
