@@ -61,7 +61,7 @@ User stories:
 ### Credits
 
 - [Hover.CSS](http://ianlunn.github.io/Hover/)
--[CODE.BOXX](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
+- [CODE.BOXX](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
 - [Stackoverflow](https://stackoverflow.com/)
 
 #### Content
