@@ -13,6 +13,8 @@ body{
 }
 
 
+
+
 /* ------------------------------------------------------------------------logo */
 
 a #logo{
@@ -51,7 +53,7 @@ header {
     letter-spacing: 4px;
     list-style-type: none;
     line-height: 4rem;
-    font-family:'Hind Siliguri', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     float: right;
     margin: 0;
@@ -104,23 +106,23 @@ header {
    font-weight: 300;
    padding-left: 20px;
    font-weight: 300;
-   font-size: 1.3vw;
+   font-size: 1.1vw;
    text-align: justify;
    line-height: 1.8;
 }
 
 
 
+h3{
+    padding-bottom: 30px;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: 400;
+    letter-spacing: 2px;
+ }
 
-   h3{
-   padding-bottom: 15px;
-   font-size: 2vw;
-   text-align: center;
-   margin-top: 3%;
-   font-weight: 400;
-   
 
-}
 
 
 
@@ -129,6 +131,9 @@ header {
     margin-top: 40px;
   
 }
+
+
+
 
 .landing-pg-img {
     padding-right: 20px;
@@ -140,14 +145,16 @@ header {
     padding-left: 20px;
 }
 
+
 .about-products{
 text-align: center;
 font-weight: 300;
 padding-right: 20px;
 font-weight: 300;
-font-size: 1.3vw;
+font-size: 1.1vw;
 text-align: justify;
 line-height: 1.8;
+
 }
 
 
@@ -161,27 +168,38 @@ line-height: 1.8;
 
 @media screen and (max-width: 991px){
 
-    .welcome-txt {
+    .about-products, .welcome-txt {
         padding: 0;
+        
     }
  
-     .welcome-txt >p {
-         font-size: 2.7vw;
-         padding: 0 35px;
+     .welcome-txt > p, .about-products >p {
+         font-size: 2.6vw;
+         padding: 0 40px;
      }
  
-     .welcome-txt > h3{
-         font-size: 3.5vw;
-         padding: 30px;
+     .welcome-txt > h3, .about-products > h3{
+         font-size: 4.1vw;
+         padding: 20px;
+         
      }
  
-     #logo{
-         font-size: 180%;
-     }
+
  
-     .landing-pg-img {
-         padding: 25px;
+     .landing-pg-img, .items-pic {
+         padding:0 20px;
      }
+
+   
+   .row {
+       margin: 40px 0px;
+       padding: 0;
+   }
+
+   .container-fluid {
+       padding: 0;
+       margin: 0;
+   }
  
    }
 
@@ -227,6 +245,7 @@ line-height: 1.8;
        display: block;
        border-bottom: #D5D5C6 1px solid;
        width: 100%;
+       height: 100%;
        -webkit-transform: perspective(1px) translateZ(0);
        transform: perspective(1px) translateZ(0);
        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -254,26 +273,26 @@ line-height: 1.8;
   @media screen and (max-width: 576px){
 
  
-    div .welcome-txt {
+    div .welcome-txt, div .about-products{
         padding: 0;
     }
 
 
-    .welcome-txt >p {
+    .welcome-txt >p, .about-products >p {
         padding: 0 30px;
         font-size: 5vw;
     }
 
-    .welcome-txt > h3 {
+    .welcome-txt > h3, .about-products > h3 {
         padding: 30px;
-        font-size: 6vw;
+        font-size: 6.1vw;
     }
 
     #logo{
         font-size: 150%;
     }
 
-    .landing-pg-img {
+    .landing-pg-img, .items-pic {
         padding: 15px;
     }
 
