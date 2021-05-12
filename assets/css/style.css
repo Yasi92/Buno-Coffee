@@ -17,19 +17,16 @@ body{
 
 /* ------------------------------------------------------------------------logo */
 
-a #logo{
-    color: #3B3B2F;
-    float: left;
-}
 
-h2 {
+.navbar-brand h2 {
     float: left;
     display: block;
     font-family: 'Quicksand', sans-serif;
-    line-height: 4rem;
     padding-left: 40px;
     font-weight: 400;
-    font-size: 180%;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    color: #1a1a16;
 }
 
 
@@ -37,31 +34,29 @@ h2 {
 
 
 
-header {
-    width:100vw;
-    height: 4rem;
-    background-color: rgba(136, 132, 82, 0.5);
-    position:static;
-    top: 0;
-    left: 0;    
+.navbar {
     
+    background-color: rgba(136, 132, 82, 0.5);
+    
+       
 }
 
-#menu {
+
+ .navbar-nav {
     list-style-type: none;
-    font-size: 120%;
-    letter-spacing: 4px;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
     list-style-type: none;
-    line-height: 4rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    float: right;
-    margin: 0;
+    float: center;
+    
+    
 }
 
 /* The hover effect is borrowed from  [http://ianlunn.github.io/Hover/]*/
 
-#menu li{
+.navbar-nav li{
     
     padding-right: 35px;
     display: inline-block;
@@ -75,23 +70,25 @@ header {
     transition-property: transform;
     padding-bottom: 10px;
     text-transform: uppercase;
+   
+    
 
 }
 
-#menu li:hover, #menu li:focus, #menu li:active{
+.navbar-nav li:hover, .navbar-nav li:focus, .navbar-nav li:active{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 
 }
 
-#menu li a{
-    color:#3B3B2F;
+.navbar-nav li a{
+    color:#1a1a16;
     text-decoration: none;
     text-align: center;
     
 }
 
-#hamnav label, #hamburger { display: none; }
+
 
 
 
@@ -104,11 +101,13 @@ header {
 .welcome-txt{
    text-align: center;
    font-weight: 300;
-   padding-left: 20px;
+   padding-left: 30px;
    font-weight: 300;
-   font-size: 1.1vw;
+   font-size: 1.2vw;
    text-align: justify;
    line-height: 1.8;
+   max-width: fit-content;
+   max-height: fit-content;
 }
 
 
@@ -128,7 +127,7 @@ h3{
 
 
 .row{
-    margin-top: 40px;
+    margin-top: 4rem;
   
 }
 
@@ -143,18 +142,20 @@ h3{
 
 .items-pic{
     padding-left: 20px;
+    
 }
 
 
 .about-products{
 text-align: center;
 font-weight: 300;
-padding-right: 20px;
+padding-right: 30px;
 font-weight: 300;
-font-size: 1.1vw;
+font-size: 1.2vw;
 text-align: justify;
 line-height: 1.8;
-
+max-width: fit-content;
+max-height: fit-content;
 }
 
 
@@ -203,69 +204,10 @@ line-height: 1.8;
  
    }
 
-@media screen and (max-width: 890px){
 
-    #hamnav label { 
-      display: block; 
-      color: white;
-      background: #3B3B2F;
-      font-style: normal;
-      font-size: 1.2em;
-      padding: 8px;
-      float: right;
-      height: 4rem;
-      width: 3rem;
-      text-align: center;
-      
-    }
 
-    #hamnav {
-        position: relative;
-    }
-  
-    #menu {
-      box-sizing: border-box;
-      display: block;
-      width: 100%;
-      position: absolute;
-      top: 4rem;
-      right: 0;
-      background-color: #3B3B2F;
-      z-index: 2;
-    }
-
-    #menu li a{
-        color: #D5D5C6;
-        text-align: center;
-    }
-
-    #menu li {
-       clear: both;
-       text-align: center;
-       display: block;
-       border-bottom: #D5D5C6 1px solid;
-       width: 100%;
-       height: 100%;
-       -webkit-transform: perspective(1px) translateZ(0);
-       transform: perspective(1px) translateZ(0);
-       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-       -webkit-transition-duration: 0.3s;
-       transition-duration: 0.3s;
-       -webkit-transition-property: transform;
-       transition-property: transform;
-    }
-
-    #menu li:hover, #menu li:focus, #menu li:active{
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-      }
 
     
-  
-    #menu { display: none; }
-    #hamnav input:checked ~ #menu { display: block; }
-    }
-
    
 
   /* ------------------------------------------------------------------------@media Mobile*/
@@ -288,8 +230,9 @@ line-height: 1.8;
         font-size: 6.1vw;
     }
 
-    #logo{
-        font-size: 150%;
+    .navbar-brand h2{
+        font-size: 1.3rem;
+        padding-right: 0;
     }
 
     .landing-pg-img, .items-pic {
