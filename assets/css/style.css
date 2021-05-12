@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Hind+Siliguri:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Hind+Siliguri:wght@300;400;500&display=swap');
 
 
 * {
@@ -7,12 +7,15 @@
     border: 0;
 
 }
-body{
-    font-family:'Hind Siliguri', sans-serif;
+
+html{
+    min-width: fit-content;
     
 }
 
-
+body{
+    font-family:'Hind Siliguri', sans-serif;
+}
 
 
 /* ------------------------------------------------------------------------logo */
@@ -30,15 +33,16 @@ body{
 }
 
 
-/* ------------------------------------------------------------------------navbar */
+/* -----------------------------------------------------------------------------------navbar */
 
 
-
+/* Box-shadow effect is borrowed from (https://css-tricks.com/almanac/properties/b/box-shadow/) */
 .navbar {
     
-    background-color: rgba(136, 132, 82, 0.5);
+    background-color: rgb(194, 192, 167);
+    box-shadow: 0 3px 6px rgba(37, 37, 33, 0.5);
+    padding: 0 0 0 10px;
     
-       
 }
 
 
@@ -49,10 +53,13 @@ body{
     list-style-type: none;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    float: center;
-    
     
 }
+
+.navbar-toggler{
+    line-height: 2.5;
+}
+
 
 /* The hover effect is borrowed from  [http://ianlunn.github.io/Hover/]*/
 
@@ -70,9 +77,6 @@ body{
     transition-property: transform;
     padding-bottom: 10px;
     text-transform: uppercase;
-   
-    
-
 }
 
 .navbar-nav li:hover, .navbar-nav li:focus, .navbar-nav li:active{
@@ -88,14 +92,6 @@ body{
     
 }
 
-
-
-
-
-/* Hemburger-menu is inspired from [https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/] but customized with my own style*/
-
-
-  
 /* ------------------------------------------------------------------------1st row */
 
 .welcome-txt{
@@ -121,17 +117,9 @@ h3{
     letter-spacing: 2px;
  }
 
-
-
-
-
-
 .row{
     margin-top: 4rem;
-  
 }
-
-
 
 
 .landing-pg-img {
@@ -142,7 +130,6 @@ h3{
 
 .items-pic{
     padding-left: 20px;
-    
 }
 
 
@@ -159,6 +146,8 @@ max-height: fit-content;
 }
 
 
+button:focus, button:hover, button:checked, button :visited {
+    outline: none;}
 
 
 #contact-us{
@@ -201,6 +190,20 @@ max-height: fit-content;
        padding: 0;
        margin: 0;
    }
+
+   .navbar {
+       padding: 0.5rem 0 0 0;
+   }
+
+
+   .navbar-nav li:not(:last-child) {
+       border-bottom: 1px solid #1a1a16;
+   }
+
+   .navbar-nav li{
+       padding: 0.7rem;
+    }
+
  
    }
 
@@ -226,12 +229,13 @@ max-height: fit-content;
     }
 
     .welcome-txt > h3, .about-products > h3 {
-        padding: 30px;
+        padding: 30px 25px;
         font-size: 6.1vw;
+        font-weight: 500;
     }
 
     .navbar-brand h2{
-        font-size: 1.3rem;
+        font-size: 110%;
         padding-right: 0;
     }
 
@@ -239,4 +243,12 @@ max-height: fit-content;
         padding: 15px;
     }
 
+    .navbar-toggler {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        margin-left: 2px;
+    }
+
+    
   }
