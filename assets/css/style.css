@@ -26,7 +26,7 @@ body{
     float: left;
     display: block;
     font-family: 'Quicksand', sans-serif;
-    padding-left: 40px;
+    padding-left: 2rem;
     font-weight: 400;
     font-size: 1.7rem;
     letter-spacing: 3px;
@@ -42,8 +42,8 @@ body{
 .navbar {
     
     background-color: rgb(194, 192, 167);
-    box-shadow: 0 3px 6px rgba(37, 37, 33, 0.5);
-    /* padding: 0 0 0 10px; */
+    box-shadow: 0 1px 6px rgba(37, 37, 33, 0.5);
+    
     
     
 }
@@ -69,7 +69,7 @@ body{
 
 .navbar-nav li{
     
-    padding-right: 35px;
+    padding-right: 2.3rem;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -97,23 +97,23 @@ body{
 
 /* ------------------------------------------------------------------------1st row */
 
-.welcome-txt{
+.welcome-txt, .about-products{
    text-align: center;
    font-weight: 300;
-   padding-left: 30px;
+   padding: 0 5vmin;
    font-weight: 300;
-   font-size: 1.2vw;
+   font-size: calc(1rem + 0.1vw);
    text-align: justify;
    line-height: 1.8;
-   max-width: fit-content;
-   max-height: fit-content;
+   
+   
 }
 
 
 
 h3{
-    padding-bottom: 30px;
-    font-size: 2vw;
+    padding-bottom: 1.3rem;
+    font-size: calc(1.2rem + 0.5vw);
     text-align: center;
     margin-top: 3%;
     font-weight: 400;
@@ -122,7 +122,7 @@ h3{
 
 
 .row{
-    margin-top: 4.5em;
+    margin-top: 4.5rem;
 }
 /* The animation is borrowed from (https://animista.net/play/basic/scale-up/scale-up-center)  */
 .landing-pg-img, .items-pic {
@@ -173,24 +173,7 @@ h3{
   
 
 
-/* ------------------------------------------------------------------------2nd row */
 
-.items-pic{
-    padding-left: 20px;
-}
-
-
-.about-products{
-text-align: center;
-font-weight: 300;
-padding-right: 30px;
-font-weight: 300;
-font-size: 1.2vw;
-text-align: justify;
-line-height: 1.8;
-max-width: fit-content;
-max-height: fit-content;
-}
 
 
 button:focus, button:hover, button:checked, button :visited {
