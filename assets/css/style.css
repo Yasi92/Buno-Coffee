@@ -5,23 +5,21 @@
     margin: 0;
     padding: 0;
     border: 0;
-
 }
+
 
 html{
     min-width: fit-content;
     overflow-y: scroll;
-    
 }
+
 
 body{
     font-family:'Hind Siliguri', sans-serif;
 }
 
 
-/* ------------------------------------------------------------------------logo */
-
-
+/* -------------------------------------------------------------------------------------logo & Navbar */
 .navbar-brand h2 {
     float: left;
     display: block;
@@ -35,17 +33,11 @@ body{
 }
 
 
-/* -----------------------------------------------------------------------------------navbar */
-
-
 /* Box-shadow effect is borrowed from (https://css-tricks.com/almanac/properties/b/box-shadow/) */
 .navbar {
     
     background-color: rgb(194, 192, 167);
     box-shadow: 0 1px 6px rgba(37, 37, 33, 0.5);
-    
-    
-    
 }
 
 
@@ -56,9 +48,8 @@ body{
     list-style-type: none;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-   
-    
 }
+
 
 .navbar-toggler {
     line-height: 2.5;
@@ -82,11 +73,12 @@ body{
     text-transform: uppercase;
 }
 
+
 .navbar-nav li:hover, .navbar-nav li:focus, .navbar-nav li:active{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-
 }
+
 
 .navbar-nav li a{
     color:#1a1a16;
@@ -95,7 +87,20 @@ body{
     
 }
 
-/* ------------------------------------------------------------------------1st row */
+button:focus, button:hover, button:checked, button :visited {
+    outline: none;}
+/* --------------------------------------------------------------------------Rows & cols*/
+.row{
+    margin-top: 4.5rem;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------txt & headings */
 
 .welcome-txt, .about-products{
    text-align: center;
@@ -105,8 +110,6 @@ body{
    font-size: calc(1rem + 0.1vw);
    text-align: justify;
    line-height: 1.8;
-   
-   
 }
 
 
@@ -121,9 +124,12 @@ h3{
  }
 
 
-.row{
-    margin-top: 4.5rem;
+ /* The animation effect is borrowed from (https://animate.style/) */
+ .animate__animated{
+    animation-duration: 3s;
 }
+/* ------------------------------------------------------------------------Images */
+
 /* The animation is borrowed from (https://animista.net/play/basic/scale-up/scale-up-center)  */
 .landing-pg-img, .items-pic {
     
@@ -162,22 +168,8 @@ h3{
     }
   }
   
-  .animate__animated{
-    animation-duration: 3s;
-}
 
 
-
-  
-
-  
-
-
-
-
-
-button:focus, button:hover, button:checked, button :visited {
-    outline: none;}
 
 
 #contact-us{
@@ -190,18 +182,18 @@ button:focus, button:hover, button:checked, button :visited {
 
     .about-products, .welcome-txt {
         padding: 0;
-        
-    }
+        }
+
  
      .welcome-txt > p, .about-products >p {
          font-size: 2.6vw;
          padding: 0 40px;
      }
+
  
      .welcome-txt > h3, .about-products > h3{
          font-size: 4.1vw;
          padding: 20px;
-         
      }
  
 
@@ -211,25 +203,24 @@ button:focus, button:hover, button:checked, button :visited {
      }
 
    
-   .row {
+    .row {
        margin: 40px 0px;
        padding: 0;
-   }
+    }
 
 
-   .navbar-nav li:not(:last-child) {
+     .navbar-nav li:not(:last-child) {
        border-bottom: 1px solid #1a1a16;
        width: 100%;
-       
-   }
-
-   .navbar-nav li:first-child{
-       padding-top: 2rem;
-   }
-
-   .navbar-nav li{
-       padding: 0.7rem;
     }
+
+    .navbar-nav li:first-child{
+       padding-top: 2rem;
+     }
+
+     .navbar-nav li{
+       padding: 0.7rem;
+     }
 
  
    }
@@ -255,20 +246,24 @@ button:focus, button:hover, button:checked, button :visited {
         font-size: 5vw;
     }
 
+
     .welcome-txt > h3, .about-products > h3 {
         padding: 30px 25px;
         font-size: 6.1vw;
         font-weight: 500;
     }
 
+
     .navbar-brand h2{
         font-size: 110%;
         padding-right: 0;
     }
 
+
     .landing-pg-img, .items-pic {
         padding: 15px;
     }
+
 
     .navbar-toggler {
         position: absolute;
@@ -276,6 +271,7 @@ button:focus, button:hover, button:checked, button :visited {
         top: 0;
         margin-left: 2px;
     }
+
 
     .container-fluid {
         padding: 0;

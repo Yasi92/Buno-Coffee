@@ -63,6 +63,8 @@ User stories:
 - [Hover.CSS](http://ianlunn.github.io/Hover/)
 - [CODE.BOXX](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
 - [Stackoverflow](https://stackoverflow.com/)
+- [Animate.css](https://animate.style/)
+- [Animista.net](https://animista.net/play/basic/scale-up)
 
 #### Content
 #### Media
