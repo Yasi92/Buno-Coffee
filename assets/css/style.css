@@ -26,7 +26,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     padding-left: 2rem;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: calc(1.5rem + 0.3vw);
     letter-spacing: 3px;
     color: #1a1a16;
     margin-bottom: 0;
@@ -43,11 +43,11 @@ body{
 
  .navbar-nav {
     list-style-type: none;
-    font-size: 1.1rem;
+    font-size: calc(1rem + 0.2vmin);
     letter-spacing: 3px;
     list-style-type: none;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
@@ -102,7 +102,7 @@ button:focus, button:hover, button:checked, button :visited {
 
 /* ------------------------------------------------------------------------txt & headings */
 
-.welcome-txt, .about-products{
+.welcome-txt p , .about-products p{
    text-align: center;
    font-weight: 300;
    padding: 0 5vmin;
@@ -114,7 +114,7 @@ button:focus, button:hover, button:checked, button :visited {
 
 
 
-h3{
+.welcome-txt h3, .about-products h3{
     padding-bottom: 1.3rem;
     font-size: calc(1.2rem + 0.5vw);
     text-align: center;
@@ -136,6 +136,7 @@ h3{
     -webkit-animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
+
 
 
 /* ----------------------------------------------
@@ -186,43 +187,36 @@ h3{
 
  
      .welcome-txt > p, .about-products >p {
-         font-size: 2.6vw;
-         padding: 0 40px;
+        font-size: calc(1rem + 0.5vw);
      }
 
  
      .welcome-txt > h3, .about-products > h3{
-         font-size: 4.1vw;
-         padding: 20px;
+        font-size: calc(1.2rem + 1vw);
+        padding-top: 2rem;
      }
  
-
- 
-     .landing-pg-img, .items-pic {
-         padding:0 20px;
-     }
 
    
     .row {
-       margin: 40px 0px;
-       padding: 0;
+       margin: 3rem 0;
     }
 
 
-     .navbar-nav li:not(:last-child) {
-       border-bottom: 1px solid #1a1a16;
-       width: 100%;
+    .navbar-nav li:not(:last-child) {
+        border-bottom: 1.5px solid black;
     }
 
-    .navbar-nav li:first-child{
-       padding-top: 2rem;
-     }
 
      .navbar-nav li{
        padding: 0.7rem;
+       width: 95%;
+       
      }
 
- 
+     
+
+     
    }
 
 
@@ -235,42 +229,33 @@ h3{
 
   @media screen and (max-width: 576px){
 
- 
-    div .welcome-txt, div .about-products{
-        padding: 0;
-    }
 
-
-    .welcome-txt >p, .about-products >p {
-        padding: 0 30px;
-        font-size: 5vw;
+    .row {
+        padding: 0 1rem;
+       
     }
 
 
     .welcome-txt > h3, .about-products > h3 {
-        padding: 30px 25px;
-        font-size: 6.1vw;
         font-weight: 500;
     }
 
 
     .navbar-brand h2{
-        font-size: 110%;
-        padding-right: 0;
+        font-size: calc(1.1rem + 1vmin);
     }
 
 
-    .landing-pg-img, .items-pic {
-        padding: 15px;
-    }
-
-
-    .navbar-toggler {
+    .navbar-toggler{
         position: absolute;
         right: 0px;
         top: 0;
-        margin-left: 2px;
+        margin-left: 0.13rem;
     }
+
+    .navbar-nav li:first-child{
+        padding-top: 2rem;
+      }
 
 
     .container-fluid {
