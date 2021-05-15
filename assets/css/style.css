@@ -78,7 +78,7 @@ body{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
+/* ------------------------------------------------------------------btn */
 .btn-lg{
     background-color: #4B4A35;
     letter-spacing: 2px;
@@ -103,16 +103,16 @@ body{
     color:#ffffff;
 }
 
+.btn-lg a:hover{
+    color:#ffffff;
+}
+
 button:focus, button:hover, button:checked, button :visited {
     outline: none;}
 /* --------------------------------------------------------------------------Rows & cols*/
 .row{
     margin-top: 4.5rem;
 }
-
-
-
-
 
 
 
@@ -132,7 +132,6 @@ a:hover {
 p{
    text-align: center;
    font-weight: 300;
-   /* padding: 0 5vmin; */
    font-weight: 300;
    font-size: calc(1rem + 0.1vw);
    text-align: justify;
