@@ -36,7 +36,7 @@ body{
 /* Box-shadow effect is borrowed from (https://css-tricks.com/almanac/properties/b/box-shadow/) */
 .navbar {
     
-    background-color: rgb(194, 192, 167);
+    background-color: #D0CEB5;
     box-shadow: 0 1px 6px rgba(37, 37, 33, 0.5);
 }
 
@@ -74,17 +74,27 @@ body{
 }
 
 
-.navbar-nav li:hover, .navbar-nav li:focus, .navbar-nav li:active{
+.navbar-nav li:hover, .navbar-nav li:focus, .navbar-nav li:active, .btn-lg:hover, .btn-lg:active, .btn-lg:focus {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-
-.navbar-nav li a{
-    color:#1a1a16;
-    text-decoration: none;
-    text-align: center;
-    
+.btn-lg{
+    background-color: #D0CEB5;
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: calc(1rem + .1vmin);
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    margin-left: 1px;
 }
 
 button:focus, button:hover, button:checked, button :visited {
@@ -101,26 +111,36 @@ button:focus, button:hover, button:checked, button :visited {
 
 
 /* ------------------------------------------------------------------------txt & headings */
+a {
+    color:#1a1a16;
+    text-decoration: none;
+    text-align: center;
+}
 
-.welcome-txt p , .about-products p{
+a:hover {
+    text-decoration: none;
+    color:#1a1a16;;
+}
+
+
+p{
    text-align: center;
    font-weight: 300;
-   padding: 0 5vmin;
+   /* padding: 0 5vmin; */
    font-weight: 300;
    font-size: calc(1rem + 0.1vw);
    text-align: justify;
    line-height: 1.8;
 }
 
-
-
-.welcome-txt h3, .about-products h3{
-    padding-bottom: 1.3rem;
+h3{
     font-size: calc(1.2rem + 0.5vw);
-    text-align: center;
-    margin-top: 3%;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.welcome-txt h3, .about-products h3{
+    margin-top: 3%;
  }
 
 
@@ -168,8 +188,20 @@ button:focus, button:hover, button:checked, button :visited {
               transform: scale(1);
     }
   }
-  
+  /* ------------------------------------------------------------------------opening hours row*/
+    .contact-info {
+        background-color: #D0CEB5;
+        box-shadow: 0 1px 6px rgba(37, 37, 33, 0.5);
 
+    }
+
+    .ul-hours .list-group-item {
+        background-color: #D0CEB5;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        
+    }
+
+   
 
 
 
@@ -181,11 +213,10 @@ button:focus, button:hover, button:checked, button :visited {
 
 @media screen and (max-width: 991px){
 
-    .about-products, .welcome-txt {
+    
+    .container-fluid{
         padding: 0;
-        min-width: fit-content;
-        }
-
+    }
  
      .welcome-txt > p, .about-products >p {
         font-size: calc(1rem + 0.5vw);
@@ -194,14 +225,13 @@ button:focus, button:hover, button:checked, button :visited {
  
      .welcome-txt > h3, .about-products > h3{
         font-size: calc(1.2rem + 1vw);
-        padding: 2rem 0.7rem;
+        padding: 2rem 0;
      }
  
 
    
     .row {
        margin: 3rem 0;
-       min-width: fit-content;
     }
 
 
@@ -231,12 +261,6 @@ button:focus, button:hover, button:checked, button :visited {
   /* ------------------------------------------------------------------------@media Mobile*/
 
   @media screen and (max-width: 576px){
-
-
-    .row {
-        padding: 0 1rem;
-       
-    }
 
 
     .welcome-txt > h3, .about-products > h3 {
