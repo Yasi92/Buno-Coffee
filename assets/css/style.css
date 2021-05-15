@@ -183,6 +183,7 @@ button:focus, button:hover, button:checked, button :visited {
 
     .about-products, .welcome-txt {
         padding: 0;
+        min-width: fit-content;
         }
 
  
@@ -193,13 +194,14 @@ button:focus, button:hover, button:checked, button :visited {
  
      .welcome-txt > h3, .about-products > h3{
         font-size: calc(1.2rem + 1vw);
-        padding-top: 2rem;
+        padding: 2rem 0.7rem;
      }
  
 
    
     .row {
        margin: 3rem 0;
+       min-width: fit-content;
     }
 
 
@@ -211,6 +213,7 @@ button:focus, button:hover, button:checked, button :visited {
      .navbar-nav li{
        padding: 0.7rem;
        width: 95%;
+       margin: 1px;
        
      }
 
