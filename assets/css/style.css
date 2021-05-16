@@ -24,7 +24,7 @@ body{
     float: left;
     display: block;
     font-family: 'Quicksand', sans-serif;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     font-weight: 400;
     font-size: calc(1.5rem + 0.3vw);
     letter-spacing: 3px;
@@ -59,8 +59,6 @@ body{
 /* The hover effect is borrowed from  [http://ianlunn.github.io/Hover/]*/
 
 .navbar-nav li{
-    
-    padding-right: 2.3rem;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -71,6 +69,10 @@ body{
     -webkit-transition-property: transform;
     transition-property: transform;
     text-transform: uppercase;
+}
+
+.navbar-nav li:not(:last-child){
+    padding-right: 2.3rem;
 }
 
 
@@ -130,7 +132,6 @@ a:hover {
 
 
 p{
-   text-align: center;
    font-weight: 300;
    font-weight: 300;
    font-size: calc(1rem + 0.1vw);
@@ -141,12 +142,8 @@ p{
 h3{
     font-size: calc(1.2rem + 0.5vw);
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
-
-.welcome-txt h3, .about-products h3{
-    margin-top: 3%;
- }
 
 
  /* The animation effect is borrowed from (https://animate.style/) */
@@ -223,12 +220,12 @@ h3{
         padding: 0;
     }
  
-     .welcome-txt > p, .about-products >p {
+     p {
         font-size: calc(1rem + 0.5vw);
      }
 
  
-     .welcome-txt > h3, .about-products > h3{
+     h3{
         font-size: calc(1.2rem + 1vw);
         padding: 2rem 0;
      }
@@ -254,7 +251,8 @@ h3{
 
      .btn-lg{
          display: block;
-         margin: 0.6rem auto;
+         margin: 2rem auto;
+         margin-bottom: 0;
      }
 
 
@@ -274,7 +272,7 @@ h3{
   @media screen and (max-width: 576px){
 
 
-    .welcome-txt > h3, .about-products > h3 {
+     h3 {
         font-weight: 500;
     }
 
