@@ -45,7 +45,7 @@
     <!-- end navbar-----------------------------------------------------------------------------------------end navbar -->
 <section id="about-us">
     <div class="container-fluid">
-        <div class="row px-3 px-md-4 justify-content-around align-items-center">
+        <div class="row px-2 px-md-3 px-lg-0 justify-content-around align-items-center">
             <div class="col-12 col-md-11 col-lg-5">
                 <img src="assets/images/IMG_3582.JPG" alt="Store-picture responsive image" class="img-fluid rounded landing-pg-img"/>
 
@@ -62,22 +62,22 @@
 
         </div>
 
-        <div class="row px-3 px-md-4 justify-content-around text-center align-items-center">
+        <div class="row px-2 px-md-3 px-lg-0 justify-content-around text-center align-items-center">
             <div class="order-12 col-12 col-md-11 order-lg-1 col-lg-5 about-products">
                 <h3 class="animate__animated animate__fadeIn text-capitalize">About our products!</h3>
                 <p>Looking for healthy sweets? Try our delicious homemade vegan sweets and stay healthy.
                     We have a wide selection of vegan products next to using freshly roasted specialty coffee beans, which proves how serious we are about keeping our products healthy and high-quality.
                     Here you will find a great healthy options for breakfast and lunch.<br>
-                    Curious about what we have to offer? Take a look at our menu!
-                    <button type="button" id="menu" class="btn btn-lg"><a href="#menu.html">menu</a></button>
+                    Curious about what we have to offer? Take a look at our   <a class="menu-link" href="#menu"> menu!</a>
+                    <!-- <button type="button" id="menu" class="btn btn-lg"><a href="#menu.html">menu</a></button> -->
                 </p>
             </div>
-            <div class="order-1 col-12 col-md-11 order-lg-12 col-lg-5 px-3 px-md-4">
+            <div class="order-1 col-12 col-md-11 order-lg-12 col-lg-5">
                  <img src="assets/images/WhatsApp Image 2021-05-14 at 3.45.49 PM (1) 2.jpeg" alt="Store-picture" class="img-fluid rounded items-pic">
             </div>
         </div>
-        <div class="row px-3 px-md-4 justify-content-around align-items-center">
-            <div class="order-1 col-12 col-md-11 order-lg-12 col-lg-5">
+        <div class="row px-2 px-md-3 px-lg-0 justify-content-around align-items-center">
+            <div class="order-12 col-12 col-md-11 order-lg-1 col-lg-5">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -98,7 +98,7 @@
                 </div>
 
             </div>
-            <div class="order-1 col-12 col-md-11 order-lg-12 col-lg-5 text-center">
+            <div class="order-12 col-12 col-md-11 order-lg-1 col-lg-5 text-center">
                 <h3>Gift Card</h3>
                 <p>A perfect gift for your loved ones. Our gift cards are available in the shop in any amount. Available gift cards are displayed in the module on this page.</p>
             </div>
@@ -113,7 +113,7 @@
 </section>
 <section id="contact-us">
     <div class="container-fluid">
-        <div class="row justify-content-center align-items-center contact-info">
+        <div class="row justify-content-center align-items-center opening-hours">
             <div class="col-12 col-md-11 col-lg-6 text-center">
                 <h3 class="text-capitalize py-4">Opening hours:</h3>
                 <ul class="list-group list-group-flush ul-hours">
@@ -143,20 +143,37 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row justify-content-center contact-info">
+            <div class="row px-2 px-md-3 justify-content-center align-items-center">
+                <div class="col-12 col-md-11 col-lg-4 text-center contact-info">
+                     <h3 class="contact-info-heading text-capitalize">Contact info :</h3>
+                     <h6><a href="tel:+31203627419">Tel : (+31)203627419</a><br>
+                     <a href="https://www.instagram.com/bunocoffeeamsterdam/" target="_blank"><i class="fab fa-instagram"></i>   Instagram</a> <br>
+                     <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCMhVMTZSshkjcGnJcghrTLWcZgBMPvkhBrQmBWJHwBXvBjqLszQTNMlCfscgLxxQlGSK" target="_blank"><i class="far fa-envelope"></i> Email</a> <br><br>
+                     Hoofddorpplein 6H<br> 1058 PD<br> Amsterdam
+                     </h6>
+                </div>
                 <div class="col-12 col-md-11 col-lg-6 text-center">
-                    <h3 class="text-capitalize py-4">Contact info:</h3>
-                    <h5>Hoofddorpplein 6H<br> 1058 PD<br> Amsterdam</h5>
+                    <!-- the code snippet for the address Google Map is borrowed from (https://google-map-generator.com/)  -->
+                    <div class="mapouter">
+                        
+                            <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Hoofddorpplein%206H,%201058%20PD%20Amsterdam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
+                            <style>.mapouter{height:20rem; width:100%; }</style>
+                           </style>
+                        </div>
+                    </div>
+                        
                 </div>
             </div>
         </div>    
    
 </section>
 
-<footer>
-    <ul class="social-networks">
-        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
-    </ul>
+<footer class="footer">
+    <div class="container">
+        <span>&copy; Copyright 2021 Bunocoffeeamsterdam. All Rights Reserved</span>
+
+    </div>
+    
 </footer>
 
 
@@ -165,4 +182,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
-<!--  test commit -->
+
