@@ -272,21 +272,41 @@ border-top: none;
 }
 
 
+/* .eq-height{
+    height: 100%;
+}
 
+.eq-height-cols{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: wrap;
+} */
 
-  .bg-menu{
-      background-image: url(assets/menu-images/9D335423-B15F-4775-9E8D-233955278AF0_1_201_a.jpeg);
+  .bg-coffee{
+      background-image: url(assets/menu-images/jarek-ceborski-IhqDpFz7I8Q-unsplash\ \(1\).jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       width: 100%;
       overflow: hidden;
-      
 
   }
 
+  .bg-warm-drinks{
+    background-image: url(assets/menu-images/pexels-charlotte-may-5946743\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+
   .dark--bg{
-      background-color: rgba(216, 211, 177, 0.6);
+      background-color: rgba(216, 211, 177, 0.5);
       
   }
 
