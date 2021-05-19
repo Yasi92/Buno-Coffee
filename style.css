@@ -211,6 +211,7 @@ h3{
 	animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
 
+  
    
 
 
@@ -260,24 +261,51 @@ h3{
 
 
 
-
-
-/* table{
-    border: 1px solid black;
-} */
-
-.coffee-drinks p{
-    font-size: calc(1rem + 0.3vmin);
+.table td{
+    padding: 0.25rem 0 0 1.8rem;
+   
+border-top: none;
 }
 
 .table th{
-    border-top: none;
+    padding: 1.2rem 0.5rem 0 1.8rem;
 }
 
-.table th, .table td{
-    padding: 0.25rem;
-   
+
+
+
+  .bg-menu{
+      background-image: url(assets/menu-images/9D335423-B15F-4775-9E8D-233955278AF0_1_201_a.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      overflow: hidden;
+      
+
+  }
+
+  .dark--bg{
+      background-color: rgba(216, 211, 177, 0.6);
+      
+  }
+
+  .col-lg-5, .col-lg-6{
+     margin-top: .5rem;
+     margin-bottom: .5rem;
+      
+      
+  }
+
+  .table{
+      margin-bottom: 0;
+
+  }
+.table p{
+    font-weight: 500;
 }
+  
+
 
 
 
