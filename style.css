@@ -129,7 +129,7 @@ button:focus, button:hover, button:checked, button :visited {
     
 }
 
-.container-fluid {
+.container-fluid{
     padding: 0;
     margin: 0;
  }
@@ -137,7 +137,9 @@ button:focus, button:hover, button:checked, button :visited {
 
 .col-lg-5 {
     padding: 0;
+    height: 100%;
 }
+
 
 
 
@@ -163,6 +165,8 @@ p{
    text-align: justify;
    line-height: 1.8;
    margin: 0;
+   text-transform: capitalize;
+   
 }
 
 h3{
@@ -192,9 +196,7 @@ h3{
 
 
 
-.menu-link:hover {
 
-}
 
  /* The animation effect is borrowed from (https://animate.style/) */
  .animate__animated{
@@ -330,6 +332,8 @@ footer{
         padding-right: 15px;
         padding-left: 15px;
     }
+
+    
     
     .contact-info{
         margin-bottom: 3rem;
