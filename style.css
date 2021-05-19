@@ -137,7 +137,7 @@ button:focus, button:hover, button:checked, button :visited {
 
 .col-lg-5 {
     padding: 0;
-    height: 100%;
+    
 }
 
 
@@ -211,6 +211,8 @@ h3{
 	animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
 
+   
+
 
 
 /* ----------------------------------------------
@@ -254,6 +256,30 @@ h3{
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         
     }
+/* ------------------------------------------------------------------------table*/
+
+
+
+
+
+/* table{
+    border: 1px solid black;
+} */
+
+.coffee-drinks p{
+    font-size: calc(1rem + 0.3vmin);
+}
+
+.table th{
+    border-top: none;
+}
+
+.table th, .table td{
+    padding: 0.25rem;
+   
+}
+
+
 
    
 
@@ -328,9 +354,10 @@ footer{
         
      }
 
-     .col-lg-5 {
+     .col-lg-5, .col-lg-6 {
         padding-right: 15px;
         padding-left: 15px;
+       
     }
 
     
