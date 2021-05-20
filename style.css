@@ -191,9 +191,7 @@ small{
     font-size:0.8rem ;
 }
 
-.text-center {
-    text-align: center;
-}
+
 
 
 
@@ -224,6 +222,10 @@ small{
   width: 100%;
   overflow: hidden;
 
+}
+
+.thead-bg{
+    background-color: #D0CEB5;
 }
 
 
@@ -293,17 +295,26 @@ small{
 .table td{
     /* padding: 0.30rem 2rem;
     border-top: none; */
+ 
   
 }
 
 .table th{
     /* padding: 0.7rem 0 0.7rem 2rem; */
+   
+    
+    
+}
+
+.push-it{
+    padding-right: 50% !important;
     
 }
 
 .table th[scope=col]{
     border-top: none;
-    border-bottom: 1px solid #686A4E;
+    /* border-bottom: 1px solid #686A4E; */
+    
 }
 
 
