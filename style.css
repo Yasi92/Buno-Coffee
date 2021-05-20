@@ -171,7 +171,7 @@ h3{
     font-weight: 400;
     letter-spacing: 1px;
     padding-bottom: 1rem;
-    color: #686A4E;
+    
 }
 
 h4{
@@ -182,17 +182,18 @@ h4{
     color: #686A4E;
     }
 
-h4 > small{
-    font-size: 1rem;
-    padding-left: 1rem;
+
+
+th[scope=col] > p{
+    font-size: calc(1.2rem + 0.7vmin);
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
-small{
-    font-size:0.8rem ;
+th[scope=col] > p > small{
+    font-size: calc(0.6rem + 0.3vmax);
+    text-transform: capitalize;
 }
-
-
-
 
 
  h6{
@@ -292,30 +293,18 @@ small{
 
 
 
-.table td{
-    /* padding: 0.30rem 2rem;
-    border-top: none; */
- 
-  
-}
 
-.table th{
-    /* padding: 0.7rem 0 0.7rem 2rem; */
-   
-    
-    
-}
 
-.push-it{
-    padding-right: 50% !important;
-    
-}
+
 
 .table th[scope=col]{
     border-top: none;
-    /* border-bottom: 1px solid #686A4E; */
     
 }
+
+
+
+
 
 
  
@@ -328,13 +317,6 @@ small{
      
   }
 
-
-.menu-items-col{
-      min-height: 34.5rem;
-      max-height:fit-content ;
-      /* background-color: blueviolet; */
-      
-  }
 
 
 .table{
@@ -440,7 +422,7 @@ footer{
     .menu-items-col{
         min-height: fit-content;
         max-height:fit-content ;
-        background-color: blueviolet;
+        
         
     }
 
