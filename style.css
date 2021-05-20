@@ -171,6 +171,7 @@ h3{
     font-weight: 400;
     letter-spacing: 1px;
     padding-bottom: 1rem;
+    color: #686A4E;
 }
 
 h4{
@@ -178,6 +179,7 @@ h4{
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: capitalize;
+    color: #686A4E;
     }
 
 h4 > small{
@@ -187,6 +189,10 @@ h4 > small{
 
 small{
     font-size:0.8rem ;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
@@ -221,10 +227,7 @@ small{
 }
 
 
-.dark--bg{
-    background-color: rgba(216, 211, 177, 0.8);
-    
-}
+
 
 
 
@@ -287,16 +290,21 @@ small{
 
 
 
-/* .table td{
-    padding: 0.30rem 2rem;
-    border-top: none;
+.table td{
+    /* padding: 0.30rem 2rem;
+    border-top: none; */
   
 }
 
 .table th{
-    padding: 0.7rem 0 0.7rem 2rem;
-} */
+    /* padding: 0.7rem 0 0.7rem 2rem; */
+    
+}
 
+.table th[scope=col]{
+    border-top: none;
+    border-bottom: 1px solid #686A4E;
+}
 
 
  
@@ -313,14 +321,14 @@ small{
 .menu-items-col{
       min-height: 34.5rem;
       max-height:fit-content ;
-      background-color: blueviolet;
+      /* background-color: blueviolet; */
       
   }
 
 
 .table{
       margin-bottom: 0;
-      background-color: aqua;
+      /* background-color: aqua; */
       }
 
 
@@ -363,6 +371,7 @@ footer{
         font-size: calc(1.2rem + 1.2vmin);
         padding:3rem 0;
         margin:0;
+        
      }
 
      .contact-info-heading{
