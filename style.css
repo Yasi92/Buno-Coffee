@@ -302,6 +302,19 @@ th[scope=col] > p > small{
     
 }
 
+.table td {
+    width: 2rem;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.table td > p {
+    text-align: right;
+}
+
+th[scope=col] ~ th[scope=col]{
+    width: 1.9rem;
+}
 
 
 
