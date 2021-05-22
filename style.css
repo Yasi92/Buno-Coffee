@@ -136,7 +136,13 @@ button:focus, button:hover, button:checked, button :visited {
 }
 
 
-
+.col-lg-5, .col-lg-6, .col-lg-4{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    
+ }
 
 
 
@@ -162,7 +168,7 @@ p{
    text-align: justify;
    line-height: 1.8;
    margin: 0;
-   text-transform: capitalize;
+   
    
 }
 
@@ -171,6 +177,17 @@ h3{
     font-weight: 400;
     letter-spacing: 1px;
     padding-bottom: 1rem;
+    text-transform: capitalize;
+    
+}
+
+.h3-py-top{
+    padding-top:1.75rem;
+    
+}
+
+.py-bottom{
+    margin-bottom:1.75rem;
     
 }
 
@@ -202,6 +219,7 @@ th[scope=col] > p > small{
     letter-spacing: 1px;
     line-height: 1.5;
     margin: 0;
+    text-transform: capitalize;
     
  }
 /* ------------------------------------------------------------------------backgrounds*/
@@ -237,7 +255,7 @@ th[scope=col] > p > small{
 /* ------------------------------------------------------------------------Animation */
 
 /* The animation is borrowed from (https://animista.net/play/basic/scale-up/scale-up-center)  */
-.landing-pg-img, .items-pic {
+.landing-pg-img, .items-pic, .place-pic {
     
     -webkit-animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -281,6 +299,8 @@ th[scope=col] > p > small{
     .opening-hours {
         background-color: #D0CEB5;
         box-shadow: 0 1px 6px rgba(37, 37, 33, 0.5);
+        margin-top:3rem:
+        
 
     }
 
@@ -310,10 +330,15 @@ th[scope=col] > p > small{
 
 .table td > p {
     text-align: right;
+   
 }
 
 th[scope=col] ~ th[scope=col]{
     width: 1.9rem;
+}
+
+th > p{
+    text-transform: capitalize;
 }
 
 
@@ -322,13 +347,7 @@ th[scope=col] ~ th[scope=col]{
 
  
 
-.col-lg-5, .col-lg-6{
-     margin-top: 0;
-     margin-bottom: 0;
-     padding-left: 0;
-     padding-right: 0;
-     
-  }
+
 
 
 
@@ -350,9 +369,9 @@ th[scope=col] ~ th[scope=col]{
 footer{
 
  background-color: #D0CEB5;
- margin-top:3rem;
+ margin-top:5rem;
  text-align: center;
- padding: .5rem 1rem;
+ padding: .5rem 0;
  }
 
 
@@ -375,15 +394,38 @@ footer{
  
      h3{
         font-size: calc(1.2rem + 1.2vmin);
-        padding:3rem 0;
-        margin:0;
+        margin-bottom:3rem;
+        margin-top: 0;
+        padding:0;
         
      }
 
-     .contact-info-heading{
-         padding: 0 0 1rem 0;
-         
-     }
+    .h3-py-top{
+        padding-top:0;
+        
+    }
+    
+    .py-bottom{
+        padding-bottom:0;
+        margin-bottom: 3rem;
+        padding-top:1rem;
+        
+    }
+
+   
+
+    .list-group-item{
+        padding: 0.5rem 0;
+    }
+
+    /* .list-group-flush{
+        padding:0 1.5rem;
+    }
+     */
+  
+     
+
+  
 
 
     .navbar-nav li:not(:last-child) {
@@ -413,31 +455,39 @@ footer{
         
      }
 
-     .col-lg-5, .col-lg-6 {
-        padding-right: 15px;
-        padding-left: 15px;
+     .row{
+         margin:0;
+     }
+
+     #opening-hours-row{
+         margin:3rem 0 0 0;
+     }
+
+      .col-12 {
+       
         margin-top: 3rem;
         margin-bottom: 0;
         
-       
     }
 
-    .row{
-        margin: 0;
+    
+
+    .footer{
+        margin-top:3rem;
     }
 
     
     
+
     .contact-info{
-        margin-bottom: 3rem;
+     text-align: center;
     }
 
-    .menu-items-col{
-        min-height: fit-content;
-        max-height:fit-content ;
-        
-        
-    }
+    
+    
+  
+
+  
 
 
 
@@ -470,12 +520,12 @@ footer{
     }
 
 
-    .navbar-toggler{
+    /* .navbar-toggler{
         position: absolute;
         right: 1.2rem;
         top: 4px;
         margin-left: 0.13rem;
-    }
+    } */
 
     .navbar-nav li:first-child{
         padding-top: 2rem;
@@ -486,6 +536,10 @@ footer{
         padding: 0;
         margin: 0;
      }
+
+     
+
+     
 
     
   }
