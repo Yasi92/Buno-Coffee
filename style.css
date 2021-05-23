@@ -186,12 +186,14 @@ h6{
 .py-bottom{
     margin-bottom:1.75rem;
     }
-
+/* ------------------------------------------------------------------------gallery*/
 #photo img{
     width: 100%;
     display: flex;
     padding: .5rem;
+
     }
+
 
 #photo {
     column-count: 3;
@@ -199,7 +201,37 @@ h6{
     clear: both;
     column-gap: 0;
     
+
+
 }
+
+.w3-display-topright{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    padding:20px 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.w3-modal{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 0;
+    
+}
+
 
 
 /* ------------------------------------------------------------------------Animation */
