@@ -188,61 +188,37 @@ h6{
     margin-bottom:1.75rem;
     }
 /* ------------------------------------------------------------------------gallery*/
-#photo img{
-    width: 100%;
-    display: flex;
-    padding: .5rem;
+#gallery img{
 
+    position: relative;
     }
 
+    button.close {
+        position: absolute;
+        z-index: 20;
+        right: 3rem;
+        top: 3rem;
+        color: white;
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: rgb(7, 7, 7);
+    }
 
-#photo {
-    column-count: 3;
-    line-height: 0;
-    clear: both;
-    column-gap: 0;
-}
+    button.close:hover{
+        background-color:white ;
+        color: rgb(7, 7, 7);
+    }
 
-.w3-display-topright{
-    position: absolute;
-    top: 5rem;
-    right: 5rem;
-}
-
-.w3-btn, .w3-button {
-    border: none;
-    display: inline-block;
-    border-radius: 5px;
-    padding:20px 20px;
-    vertical-align: middle;
-    text-decoration: none;
-    color: white;
-    background-color:rgb(0, 0, 0);
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-
-.w3-modal{
-    background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 0;
+   
     
-}
 
-.w3-modal-content {
-    width: 60vw;
-    background-color: transparent;
-    margin-top: 4.2rem;
-    margin-bottom: 4.2rem;
-    height: 80vh;
-    overflow: hidden;
-}
 
-#img01{
-    max-height: 90vh;
-    
-}
+
+
+
+
 
 
 
