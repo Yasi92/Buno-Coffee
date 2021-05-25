@@ -29,7 +29,8 @@ body{
     font-size: calc(1.5rem + 0.3vw);
     letter-spacing: 3px;
     color: #1a1a16;
-    margin-bottom: 0;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
     text-transform: uppercase;
   }
 
@@ -200,9 +201,6 @@ h6{
     line-height: 0;
     clear: both;
     column-gap: 0;
-    
-
-
 }
 
 .w3-display-topright{
@@ -229,6 +227,20 @@ h6{
 .w3-modal{
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 0;
+    
+}
+
+.w3-modal-content {
+    width: 60vw;
+    background-color: transparent;
+    margin-top: 4.2rem;
+    margin-bottom: 4.2rem;
+    height: 80vh;
+    overflow: hidden;
+}
+
+#img01{
+    max-height: 90vh;
     
 }
 
@@ -355,6 +367,7 @@ th[scope=col] > p{
 th[scope=col] > p > small{
     font-size: calc(0.6rem + 0.3vmax);
     text-transform: capitalize;
+    text-align: left;
  }
 
 
