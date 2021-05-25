@@ -29,9 +29,8 @@ body{
     font-size: calc(1.5rem + 0.3vw);
     letter-spacing: 3px;
     color: #1a1a16;
-    margin-top: .3rem;
-    margin-bottom: .3rem;
     text-transform: uppercase;
+    margin-bottom: 0;
   }
 
 
@@ -83,6 +82,7 @@ body{
     -webkit-transition-property: transform;
     transition-property: transform;
     padding-left: 3px;
+    border-bottom: 1px solid #1a1a16;
     }
 
 
@@ -113,6 +113,7 @@ button:focus, button:hover, button:checked, button :visited {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
+    position: relative;
   }
 
 
@@ -121,6 +122,7 @@ button:focus, button:hover, button:checked, button :visited {
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+    position: static;
     
  }
 
@@ -183,10 +185,11 @@ h6{
     padding-top:1.75rem;
  }
 
+ .py-bottom{
+     padding-bottom: 1.75rem;
+ }
 
-.py-bottom{
-    margin-bottom:1.75rem;
-    }
+
 /* ------------------------------------------------------------------------gallery*/
 #gallery img{
 
@@ -196,12 +199,12 @@ h6{
     button.close {
         position: absolute;
         z-index: 20;
-        right: 3rem;
-        top: 3rem;
+        right: 2rem;
+        top: 2rem;
         color: white;
-        font-size: 2rem;
-        width: 3rem;
-        height: 3rem;
+        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
         border-radius: 50%;
         background-color: rgb(7, 7, 7);
     }
@@ -277,6 +280,7 @@ h6{
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         }
 
+    
 /* --------------------------------------------------------------------------------table*/
 
 .thead-bg{

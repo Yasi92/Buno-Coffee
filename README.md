@@ -65,7 +65,7 @@ User stories:
 - [Stackoverflow](https://stackoverflow.com/)
 - [Animate.css](https://animate.style/)
 - [Animista.net](https://animista.net/play/basic/scale-up)
-- [W3schools.com](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery)
+- [CSS-TRICKS](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
 
 #### Content
 #### Media
