@@ -19,6 +19,26 @@ body{
     font-weight: 400;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom:3.2rem;
+    right:0;
+    z-index: 99;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color:rgba(71, 71, 59, 0.6);
+    color: white;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 40%;
+    
+  }
+  #myBtn:hover {
+    background-color: #505045;
+  }
+  
 
 /* -------------------------------------------------------------------------------------logo & Navbar */
 .navbar-brand h2 {
@@ -381,6 +401,16 @@ footer{
         padding:0;
     }
 
+
+#myBtn {
+    
+    bottom:2.8rem;
+    right:0;
+    font-size: 1rem;
+    padding: .5rem;
+    
+  }
+
     .h3-py-top{
         padding-top:0;
      }
@@ -465,7 +495,7 @@ footer{
         font-weight: 500;
      }
 
-
+     
     .navbar-brand h2{
         font-size: calc(1.1rem + 1vmin);
     }
