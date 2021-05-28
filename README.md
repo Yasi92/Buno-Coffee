@@ -61,11 +61,11 @@ User stories:
 ### Credits
 
 - [Hover.CSS](http://ianlunn.github.io/Hover/)
-- [CODE.BOXX](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
 - [Stackoverflow](https://stackoverflow.com/)
 - [Animate.css](https://animate.style/)
 - [Animista.net](https://animista.net/play/basic/scale-up)
 - [CSS-TRICKS](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
+- [w3schools](https://www.w3schools/howto/tryit.asp?filename=tryhow_js_scroll_to_top)
 
 #### Content
 #### Media
