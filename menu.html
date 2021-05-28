@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <meta charset="UTF-8">
-         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
-         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/> 
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-         <link rel="stylesheet" href="style.css" type="text/css">
-         <title>Buno Coffee Amsterdam</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Buno Coffee Amsterdam</title>
     </head>
     <body>
         <header>
-<!-- navbar---------------------------------------------------------------------------------------------navbar -->
             <nav class="navbar navbar-expand-lg sticky-top px-4 px-md-5">
-               <a href="index.html" class="navbar-brand"><h2>Buno Coffee</h2></a>
-               <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars" style="font-size: 2rem;"></i></span></button>
-               
-               <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
-                
+                <a href="index.html" class="navbar-brand">
+                    <h2>Buno Coffee</h2>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars" style="font-size: 2rem;"></i></span></button>
+                <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
                     <ul class="nav navbar-nav ml-auto align-items-center">
-                             
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
@@ -38,18 +35,15 @@
                 </div>
             </nav>
         </header>
-
-        <section>
-            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+        <section id="menu-items">
             <div class="container-fluid">
                 <div class="row px-1 px-md-4 align-items-start justify-content-around">
                     <!----------------------------------------- coffee column------------------------------ -->
-                     <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
-                      
+                    <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                    
                                     <th scope="col">
                                         <p>Coffee</p>
                                     </th>
@@ -59,235 +53,354 @@
                                     <th scope="col">
                                         <i class="fas fa-coffee" style="font-size: 1.5rem; float: right; line-height: inherit;"></i>
                                     </th>
-                                    
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row"><p>Espresso</p></th>
-                                <td><p>2.0</p></td>
-                                <td><p>2.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Espresso Macchiato/Cortado</p></th>
-                                <td><p>2.5</p></td>
-                                <td><p>3.1</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Americano</p></th>
-                                <td></td>
-                                <td><p>2.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Cappuccino</p></th>
-                                <td><p>2.8</p></td>
-                                <td><p>3.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>latte</p></th>
-                                <td><p>3.0</p></td>
-                                <td><p>3.7</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Latte Macchiato</p></th>
-                                <td><p>3.2</p></td>
-                                <td><p>3.9</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Flat White</p></th>
-                                <td></td>
-                                <td><p>3.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Mochaccino</p></th>
-                                <td><p>3.2</p></td>
-                                <td><p>4.2</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Iced Cappuccino/Latte</p></th>
-                                <td></td>
-                                <td><p>4.0</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Iced Americano</p></th>
-                                <td></td>
-                                <td><p>3.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>(soja/almond/oat/coconut) milk/Syrup</p></th>
-                                <td><p>+0.4</p></td>
-                                <td><p>+0.6</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Extra shot espresso</p></th>
-                                <td></td>
-                                <td><p>+1.0</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><small>(All coffees can be decaffeinated)</small></th>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Espresso</p>
+                                    </th>
+                                    <td>
+                                        <p>2.0</p>
+                                    </td>
+                                    <td>
+                                        <p>2.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Espresso Macchiato/Cortado</p>
+                                    </th>
+                                    <td>
+                                        <p>2.5</p>
+                                    </td>
+                                    <td>
+                                        <p>3.1</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Americano</p>
+                                    </th>
+                                    <td></td>
+                                    <td>
+                                        <p>2.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Cappuccino</p>
+                                    </th>
+                                    <td>
+                                        <p>2.8</p>
+                                    </td>
+                                    <td>
+                                        <p>3.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>latte</p>
+                                    </th>
+                                    <td>
+                                        <p>3.0</p>
+                                    </td>
+                                    <td>
+                                        <p>3.7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Latte Macchiato</p>
+                                    </th>
+                                    <td>
+                                        <p>3.2</p>
+                                    </td>
+                                    <td>
+                                        <p>3.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Flat White</p>
+                                    </th>
+                                    <td></td>
+                                    <td>
+                                        <p>3.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Mochaccino</p>
+                                    </th>
+                                    <td>
+                                        <p>3.2</p>
+                                    </td>
+                                    <td>
+                                        <p>4.2</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Iced Cappuccino/Latte</p>
+                                    </th>
+                                    <td></td>
+                                    <td>
+                                        <p>4.0</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Iced Americano</p>
+                                    </th>
+                                    <td></td>
+                                    <td>
+                                        <p>3.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>(soja/almond/oat/coconut) milk/Syrup</p>
+                                    </th>
+                                    <td>
+                                        <p>+0.4</p>
+                                    </td>
+                                    <td>
+                                        <p>+0.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Extra shot espresso</p>
+                                    </th>
+                                    <td></td>
+                                    <td>
+                                        <p>+1.0</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><small>(All coffees can be decaffeinated)</small></th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
                             </tbody>
-                               
                         </table>
-                    
                     </div>
-                    
-
-                     <!--------------------------------------- warm-drinks column----------------------- -->
+                    <!--------------------------------------- warm-drinks column----------------------- -->
                     <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>Warm drinks</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                     
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
-                             <tbody>
-                            <tr>
-                                <th scope="row"><p>Tea</p></th>
-                                <td><p>2.6</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Saffron tea</p></th>
-                                <td><p>4.0</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Fresh Mint/ginger tea</p></th>
-                                <td><p>3.0</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>chai/matcha tea</p></th>
-                                <td><p>3.0</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>chai/matcha latte<br><small>(soja/ oat milk + 0.6)</small></p></th>
-                                <td><p>3.6</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>dirty chai</p></th>
-                                <td><p>4.6</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Tony's Chocolademelk<br><small>(with whipped cream +0.5)</small></p></th>
-                                <td><p>3.2</p></td>
-                            </tr>
-                            
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Tea</p>
+                                    </th>
+                                    <td>
+                                        <p>2.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Saffron tea</p>
+                                    </th>
+                                    <td>
+                                        <p>4.0</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Fresh Mint/ginger tea</p>
+                                    </th>
+                                    <td>
+                                        <p>3.0</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>chai/matcha tea</p>
+                                    </th>
+                                    <td>
+                                        <p>3.0</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>chai/matcha latte<br><small>(soja/ oat milk + 0.6)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>dirty chai</p>
+                                    </th>
+                                    <td>
+                                        <p>4.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Tony's Chocolademelk<br><small>(with whipped cream +0.5)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.2</p>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
-                </div>     
+                </div>
                 <div class="row px-1 px-md-4 align-items-start justify-content-around">
                     <!--------------------------- Juices and smoothies column----------------------- -->
                     <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5 order-lg-12">
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>Juices and smoothies</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row"><p>fresh orange juice</p></th>
-                                <td><p>4.1</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Bio apple juice</p></th>
-                                <td><p>3.7</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Açaí Juice</p></th>
-                                <td><p>4.1</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>mango juice</p></th>
-                                <td><p>4.1</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>passion friut juice</p></th>
-                                <td><p>4.1</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Green Power Smoothie<br><small> (spinach, avocado, apple, broccoli, mango, wheat grass, barley grass, spirulina)</small></p></th>
-                                <td><p>4.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Berry Bomb smoothie<br><small> (Açaí berries, Babobab, Banana, blue berries, Blackberries, Hemp protein, black berries)</small></p></th>
-                                <td><p>4.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Hawaiian Smoothie<br><small> (Acerola, Ananas, coconut, Mango, passion friut)</small></p></th>
-                                <td><p>4.5</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Pitaya Coconut-cashew smoothie<br><small> (cashew, coconut, Pitaya)</small></p></th>
-                                <td><p>4.5</p></td>
-                            </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>fresh orange juice</p>
+                                    </th>
+                                    <td>
+                                        <p>4.1</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Bio apple juice</p>
+                                    </th>
+                                    <td>
+                                        <p>3.7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Açaí Juice</p>
+                                    </th>
+                                    <td>
+                                        <p>4.1</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>mango juice</p>
+                                    </th>
+                                    <td>
+                                        <p>4.1</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>passion friut juice</p>
+                                    </th>
+                                    <td>
+                                        <p>4.1</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Green Power Smoothie<br><small> (spinach, avocado, apple, broccoli, mango, wheat grass, barley grass, spirulina)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Berry Bomb smoothie<br><small> (Açaí berries, Babobab, Banana, blue berries, Blackberries, Hemp protein, black berries)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Hawaiian Smoothie<br><small> (Acerola, Ananas, coconut, Mango, passion friut)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.5</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Pitaya Coconut-cashew smoothie<br><small> (cashew, coconut, Pitaya)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.5</p>
+                                    </td>
+                                </tr>
                             </tbody>
-                            
-                           
-                    
                         </table>
-                        
-
-
-                     </div>
-                     <!------------------------------ sparkling-drinks column--------------------- -->
-                     <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
+                    </div>
+                    <!------------------------------ sparkling-drinks column--------------------- -->
+                    <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>sparkling drinks</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row"><p>Earth Water<br><small>Blue / red</small></p></th>
-                                <td><p>2.3</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>vivid green<br><small>(sweet apple, lemon & hint of mint)</small></p></th>
-                                <td><p>3.8</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>vivid rose<br><small>(rose, cardamom, pear & apple)</small></p></th>
-                                <td><p>3.8</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>vivid berry<br><small>(sour apple, berries & lavender)</small></p></th>
-                                <td><p>3.8</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>vivid ginger<br><small>(apple, ginger, carrot)</small></p></th>
-                                <td><p>3.8</p></td>
-                            </tr>
-                            
+                                <tr>
+                                    <th scope="row">
+                                        <p>Earth Water<br><small>Blue / red</small></p>
+                                    </th>
+                                    <td>
+                                        <p>2.3</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>vivid green<br><small>(sweet apple, lemon & hint of mint)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>vivid rose<br><small>(rose, cardamom, pear & apple)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>vivid berry<br><small>(sour apple, berries & lavender)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>vivid ginger<br><small>(apple, ginger, carrot)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.8</p>
+                                    </td>
+                                </tr>
                             <tbody>
-                         
-                        
-                            
                         </table>
-                        
-
-
-                     </div>
-
+                    </div>
                 </div>
                 <div class="row px-1 px-md-4 align-items-start justify-content-around">
                     <!------------------------------ acai bowl column----------------------- -->
@@ -295,87 +408,111 @@
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>Açaí bowls</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row"><p>Açaí Bowl Original<br><small>(Brazilian palm berry puree with guarana, muesli, banana, strawberry and passion fruit)</small></p></th>
-                                <td><p>7.8</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Açaí Bowl Special<br><small>(Brazilian palm berry puree with guarana, homemade granola, banana, strawberry and passion fruit)</small></p></th>
-                                <td><p>9.3</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Açaí Bowl Superfruit<br><small>(Brazilian palm berry puree with guarana, banana, strawberry, mango, berry mix and passion fruit)</small></p></th>
-                                <td><p>9.3</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Açaí Bowl Rainbow<br><small>(Brazilian palm berry puree with guarana,homemade granola, berry mix, goji berries, chia seeds, banana, strawberry and passion fruit)</small></p></th>
-                                <td><p>10.8</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Açaí Bowl nutty scoop<br><small>(Brazilian palm berry puree with guarana, goji berries, sunflower seeds, pumpkin seeds, mulberries, apricots, figs, dates, banana, strawberry and passion fruit)</small></p></th>
-                                <td><p>11.4</p></td>
-                            </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Açaí Bowl Original<br><small>(Brazilian palm berry puree with guarana, muesli, banana, strawberry and passion fruit)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>7.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Açaí Bowl Special<br><small>(Brazilian palm berry puree with guarana, homemade granola, banana, strawberry and passion fruit)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>9.3</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Açaí Bowl Superfruit<br><small>(Brazilian palm berry puree with guarana, banana, strawberry, mango, berry mix and passion fruit)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>9.3</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Açaí Bowl Rainbow<br><small>(Brazilian palm berry puree with guarana,homemade granola, berry mix, goji berries, chia seeds, banana, strawberry and passion fruit)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>10.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Açaí Bowl nutty scoop<br><small>(Brazilian palm berry puree with guarana, goji berries, sunflower seeds, pumpkin seeds, mulberries, apricots, figs, dates, banana, strawberry and passion fruit)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>11.4</p>
+                                    </td>
+                                </tr>
                             </tbody>
-                            
-                
                         </table>
-                        
-
-
-                     </div>
-                     <!------------------------- Sweets and pastries column--------------------- -->
-                     <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
+                    </div>
+                    <!------------------------- Sweets and pastries column--------------------- -->
+                    <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>sweets</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                     
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row"><p>Date balls<br><small>(home-made, vegan, gluten-free, sugar-free)</small></p></th>
-                                <td><p>1.10</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>banana bread<br><small>(Home-made, vegan)</small></p></th>
-                                <td><p>2.90</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>lemon seed poppy<br><small>(vegan)</small></p></th>
-                                <td><p>3.20</p></td>
-                            </tr>
-                            <tr>
-                                <th class="push-it" scope="row"><p>carrot & cream cheese cake</p></th>
-                                <td><p>3.95</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>cinnamon roll<br><small>(vegan)</small></p></th>
-                                <td><p>3.45</p></td>
-                            </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Date balls<br><small>(home-made, vegan, gluten-free, sugar-free)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>1.10</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>banana bread<br><small>(Home-made, vegan)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>2.90</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>lemon seed poppy<br><small>(vegan)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.20</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="push-it" scope="row">
+                                        <p>carrot & cream cheese cake</p>
+                                    </th>
+                                    <td>
+                                        <p>3.95</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>cinnamon roll<br><small>(vegan)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.45</p>
+                                    </td>
+                                </tr>
                             </tbody>
-                            
                         </table>
-                        
-
-
-                     </div>
-
+                    </div>
                 </div>
                 <div class="row px-1 px-md-4 align-items-start justify-content-around">
                     <!--------------------------------- Sandwiches and Soup column----------------------- -->
@@ -383,154 +520,142 @@
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>sandwiches and soup</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                     
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                            
-                                <th scope="row"><p>Grilled chicken sandwich<br><small>(grilled chicken with cheese, arugula, tomato, freshly roasted almond flakes, aioli)</small></p></th>
-                                <td><p>5.95</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Club sandwich Salmon<br><small>(Smoked wild Alaska Sockeye salmon with lemon Mayonnaise, lollo biondo, tomato, cucumber, arugula)</small></p></th>
-                                <td><p>8.95</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Smashing Avocado<br><small>(Avocado, goat cheese, tomato, arugula and honey mustard dressing)</small></p></th>
-                                <td><p>5.45</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Soup of the day<br><small>See the the daily board</small></p></th>
-                                <td><p>3.95</p></td>
-                            </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Grilled chicken sandwich<br><small>(grilled chicken with cheese, arugula, tomato, freshly roasted almond flakes, aioli)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>5.95</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Club sandwich Salmon<br><small>(Smoked wild Alaska Sockeye salmon with lemon Mayonnaise, lollo biondo, tomato, cucumber, arugula)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>8.95</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Smashing Avocado<br><small>(Avocado, goat cheese, tomato, arugula and honey mustard dressing)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>5.45</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Soup of the day<br><small>See the the daily board</small></p>
+                                    </th>
+                                    <td>
+                                        <p>3.95</p>
+                                    </td>
+                                </tr>
                             </tbody>
-                            
-                
                         </table>
-                     </div>
-                     <!------------------------------- toasti's and Croissants column--------------------- -->
-                     <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
+                    </div>
+                    <!------------------------------- toasti's and Croissants column--------------------- -->
+                    <div class="col-12 px-2 px-md-4 px-lg-0 col-lg-5">
                         <table class="table table-sm">
                             <thead class="thead-bg">
                                 <tr>
-                                     <th scope="col">
+                                    <th scope="col">
                                         <p>toasti's and Croissants</p>
-                                     </th>
-                                     <th scope="col"></th>
-                                     
+                                    </th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
-                             <tbody>
-                            <tr>
-                                <th scope="row"><p>Toasti double cheeses<br><small>(Spicy provolone & mature farm cheese)</small></p></th>
-                                <td><p>4.45</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>toasti vegan<br><small>(Lentil stew with chipotles, coriander and Wilmersburger classic cheese)</small></p></th>
-                                <td><p>4.95</p></td>
-                                
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>toasti italian<br><small>(grated mozzarella, pesto, salami, grated parmesan)</small></p></th>
-                                <td><p>4.95</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Butter Croissant</p></th>
-                                <td><p>1.90</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Butter Croissant with cheese</p></th>
-                                <td><p>2.30</p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><p>Chocolate Croissant</p></th>
-                                <td><p>1.90</p></td>
-                            </tr>
-                             </tbody>
-                           
-                            
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Toasti double cheeses<br><small>(Spicy provolone & mature farm cheese)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.45</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>toasti vegan<br><small>(Lentil stew with chipotles, coriander and Wilmersburger classic cheese)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.95</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>toasti italian<br><small>(grated mozzarella, pesto, salami, grated parmesan)</small></p>
+                                    </th>
+                                    <td>
+                                        <p>4.95</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Butter Croissant</p>
+                                    </th>
+                                    <td>
+                                        <p>1.90</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Butter Croissant with cheese</p>
+                                    </th>
+                                    <td>
+                                        <p>2.30</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <p>Chocolate Croissant</p>
+                                    </th>
+                                    <td>
+                                        <p>1.90</p>
+                                    </td>
+                                </tr>
+                            </tbody>
                         </table>
-                        
-
-
-                     </div>
-
+                    </div>
                 </div>
-                     
-        
-                
-        
-                
-                
             </div>
-                
-                
-        
-            
-           
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <span>&copy; Copyright 2021 Bunocoffee</span>   
-        </div>
-        
-    </footer>
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
-        
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
+        <footer class="footer">
+            <div class="container">
+                <span>&copy; Copyright 2021 Bunocoffee</span>   
+            </div>
+        </footer>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
         </script>
-
-              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
