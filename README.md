@@ -106,84 +106,85 @@ Here I have tried to create a website with a minimal design requested by the cli
           * Lato for the headlines and logo.
           * Sans-serif for the fallback font.
 
-
+![navigation bar](wireframes/screenshots/Nav-bar.png)
 *  Navigation Bar     
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Menu and Gallery page and is identical in each page to allow for easy navigation.
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
     * The navigation bar collapses from medium screen sizes to a hamburger icon, which unfolds to a navigation drawer when clicked.
 
-![navigation bar](wireframes/screenshots/Nav-bar.png)
 
 
+                        
+
+![landing page image and text ](wireframes/screenshots/landing-page-img.png)
 * The landing page image and text     
     * The landing area, grabs the user's attention by scaling up the landing page image and giving a brief introduction about the business.
     * A small portion of the next section of the page is intentionally displayed to arouse the visitors' curiosity to scroll down.
 
-![landing page image and text ](wireframes/screenshots/landing-page-img.png)
 
 
+![About our product image ](wireframes/screenshots/about-us.png)
 * The section "About our product" 
      * The focus of this section is to convince visitors that this place has high quality and a wide variety of products.
      * The image of a bowl in this section is meant to catch the user's attention and arouse their curiosity.
      * The underlined menu link in this section provides an easy shortcut path to the menu page.
     
-![About our product image ](wireframes/screenshots/about-us.png)
 
 
+![Our Cozy Place image](wireframes/screenshots/place-img.png)
 * The section "Our Cozy Place"
      * This section is intended to inform visitors about the space and the possibility of holding private or special events.
      * The images are displayed in a carousel container.
 
-![Our Cozy Place image](wireframes/screenshots/place-img.png)
 
 
+![Gift card image](wireframes/screenshots/gift-card-img.png)
 * The section "Gift card"     
      * This is the part where the user learns about the gift card service and also gets to see a module of the two sides of the gift card by simply sliding through the carousel container.
 
-![Gift card image](wireframes/screenshots/gift-card-img.png)
 
 
+![Opening Hours](wireframes/screenshots/opening-hours.png)
 * The section "Opening Hours"
      * This area informs the user about the opening days and hours of the shop.   
 
-![Opening Hours](wireframes/screenshots/opening-hours.png)
 
 
+![contact information](wireframes/screenshots/contact-info.png)
 * The section "contact information"    
      * This section provides users with the contact information of the cafe.
      * The corresponding icons are added to each of the contact paths, not only for design reaons, but also for a better UX experience and quick access.
      * Each of the contact links opens in a new tab to allow easy navigation for the user.
      * The Google map in this section is embeded for users to quickly and easily get directions to the location.
 
-![contact information](wireframes/screenshots/contact-info.png)
 
 
+![footer](wireframes/screenshots/footer.png)
 * The footer
      * Footer has been included in all three pages.
      * As the entire content of the page was originally created by the Bunocoffee team, the copyright is included in the footer to protect the copyright.
 
-![footer](wireframes/screenshots/footer.png)
 
 
+![menu](wireframes/screenshots/menu.png)
 * Menu page 
    * The menu page lists the product names, prices, and an expansion of the ingredients of each item.
 
-![menu](wireframes/screenshots/menu.png)
 
 
+![Gallery](wireframes/screenshots/gallery.png)
 * Gallery
     * The gallery is an important part of the website, as it is meant to draw users' attention to the place and the products.
     * Each image in the gallery can be enlarged by clicking on it and is then automatically displayed in a carousel container in sequence.
 
-![Gallery](wireframes/screenshots/gallery.png)
 
 
+![back-to-top button](wireframes/screenshots/back-to-top-button.jpeg)
 * Sticky back-to-top button
-
     * After 1000 px of scrolling the page down, a sticky back-to-top button appears at the bottom right of the window to easily navigate to the top page without having to scroll all the way back up.
     * This feature is especially useful on mobile devices, as it prevents the user from having to scroll all the way back to the top of the page.
 
-![back-to-top button](wireframes/screenshots/back-to-top-button.jpeg)
+
 
 
   ### Yet To Be Implemented
@@ -242,6 +243,8 @@ Here I have tried to create a website with a minimal design requested by the cli
 - This was used to compress the used images in the website.
 18. [https://mycolor.space/](https://mycolor.space/) - 
 - This was used to choose the color theme used in the website.
+19. [Unicorn Revealer Extention](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+- This is a developer friendly tool to locate the overflows and was used throughout the process.
 ## Testing
 
 - When testing the published website noticed that the scroll-back-to-top button does not appear after scrolling the pages down while this was not an issue on the local repository.
@@ -298,7 +301,7 @@ This is used to make changes to the project code.
 ## Acknowledgements
 
 - Tutors at Code Institute for their continued support.
-- Code Institute's Slack community was a great help every step of the way through the project.
+- Code Institute's Slack community was a great help every step of the way during the project.
 - My mentor Gurjot Singh.
 - My web developer friend Monica Andreoli for her great feedback and help when I ran into problems.
  
