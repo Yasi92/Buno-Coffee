@@ -79,20 +79,20 @@ Here I have tried to create a website with a minimal design requested by the cli
 [Wireframes.pdf](wireframes/Wireframes.pdf)
 
 1. Desktop
-- [Home](wireframes/desktop/Desktop_Home.png)
-- [Menu](wireframes/desktop/Desktop_Menu.png)
-- [Gallery](wireframes/desktop/Desktop_Gallery.png)
+- [Home](wireframes/desktop/Desktop_Home.pdf)
+- [Menu](wireframes/desktop/Desktop_Menu.pdf)
+- [Gallery](wireframes/desktop/Desktop_Gallery.pdf)
 
 2. Ipad
-- [Home](wireframes/ipad/Ipad_Home.png)
-- [Menu](wireframes/ipad/Ipad_Menu.png)
-- [Gallery](wireframes/ipad/Ipad_Gallery.png)
+- [Home](wireframes/ipad/Ipad_Home.pdf)
+- [Menu](wireframes/ipad/Ipad_Menu.pdf)
+- [Gallery](wireframes/ipad/Ipad_Gallery.pdf)
 
  
 3. Mobile 
-- [Home](wireframes/mobile/Mobile_Home.png)
-- [Menu](wireframes/mobile/Mobile_Menu.png)
-- [Gallery](wireframes/mobile/Mobile_Gallery.png)
+- [Home](wireframes/mobile/Mobile_Home.pdf)
+- [Menu](wireframes/mobile/Mobile_Menu.pdf)
+- [Gallery](wireframes/mobile/Mobile_Gallery.pdf)
 ## Features
 
 ### Existing Features
@@ -181,6 +181,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 * Sticky back-to-top button
 
     * After 1000 px of scrolling the page down, a sticky back-to-top button appears at the bottom right of the window to easily navigate to the top page without having to scroll all the way back up.
+    * This feature is especially useful on mobile devices, as it prevents the user from having to scroll all the way back to the top of the page.
 
 ![back-to-top button](wireframes/screenshots/back-to-top-button.jpeg)
 
@@ -243,6 +244,16 @@ Here I have tried to create a website with a minimal design requested by the cli
 - This was used to choose the color theme used in the website.
 ## Testing
 
+- When testing the published website noticed that the scroll-back-to-top button does not appear after scrolling the pages down while this was not an issue on the local repository.
+
+| Bugs | Solutions |
+| ----------- | ----------- |
+| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue on the local repository. | I fixed this by moving the button element with the "function" attribute to the head. 
+| Paragraph | Text |
+| Paragraph | Text |
+| Paragraph | Text |
+| Paragraph | Text |
+| Paragraph | Text |
 
 ## Deployment
 

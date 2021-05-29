@@ -22,7 +22,7 @@ body{
 #myBtn {
     display: none;
     position: fixed;
-    bottom:3.2rem;
+    bottom:3.5rem;
     right:0;
     z-index: 99;
     font-size: 1rem;
@@ -240,6 +240,10 @@ h6{
         opacity: 0.60;
     }
    
+
+    .carousel-item > img:hover {
+        opacity: 1;
+    }
     
 
 
@@ -387,7 +391,7 @@ footer{
  background-color: #D0CEB5;
  margin-top:5rem;
  text-align: center;
- padding: .5rem 0;
+ padding: 1rem 0;
  }
 
 /* ------------------------------------------------------------------------@media query medium*/
@@ -410,7 +414,7 @@ footer{
 
 #myBtn {
     
-    bottom:2.8rem;
+    bottom: 3.5rem;
     right:0;
     font-size: 1rem;
     padding: .5rem;
