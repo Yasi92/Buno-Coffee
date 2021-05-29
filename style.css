@@ -208,6 +208,7 @@ h6{
  .py-bottom{
      padding-bottom: 1.75rem;
  }
+ 
 
 
 /* ------------------------------------------------------------------------gallery*/
@@ -234,6 +235,10 @@ h6{
         color: rgb(7, 7, 7);
     }
 
+
+    img.w-100:hover{
+        opacity: 0.60;
+    }
    
     
 
@@ -248,7 +253,7 @@ h6{
 /* ------------------------------------------------------------------------Animation */
 
 /* The animation is borrowed from (https://animista.net/play/basic/scale-up/scale-up-center)  */
-.landing-pg-img, .items-pic, .place-pic {
+.landing-pg-img, .items-pic {
     
     -webkit-animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -259,6 +264,7 @@ h6{
  .animate__animated{
     animation-duration: 3s;
  }
+
 
   
 /* ----------------------------------------------
@@ -304,7 +310,7 @@ h6{
 /* --------------------------------------------------------------------------------table*/
 
 .thead-bg{
-    background-color: #D0CEB5;
+    background-color: #acaa86;
   }
 
 
