@@ -251,8 +251,8 @@ Here I have tried to create a website with a minimal design requested by the cli
 
 | Bugs | Solutions |
 | ----------- | ----------- |
-| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue on the local repository. | I fixed this by moving the button element with the "function" attribute to the head. 
-| Paragraph | Text |
+| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue on the local repository. |  
+| | Text |
 | Paragraph | Text |
 | Paragraph | Text |
 | Paragraph | Text |

@@ -147,6 +147,16 @@ button:focus, button:hover, button:checked, button :visited {
  }
 
 
+ .mapouter{
+     height:20rem; 
+     width:100%; 
+    }
+
+    #gmap_canvas {
+      height: 100%;
+      width: 100%;
+    }
+
 /* ------------------------------------------------------------------------txt & headings & links */
 a {
     color:#1a1a16;
