@@ -147,12 +147,12 @@ button:focus, button:hover, button:checked, button :visited {
  }
 
 
- .mapouter{
+.mapouter{
      height:20rem; 
      width:100%; 
     }
 
-    #gmap_canvas {
+#gmap_canvas {
       height: 100%;
       width: 100%;
     }
@@ -362,7 +362,7 @@ h6{
 
 
 .table th, .table td{
-    border-top: 1px dotted #D0CEB5;
+    border-top: 1px dotted #acaa86;
  }
 
 

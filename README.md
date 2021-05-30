@@ -252,11 +252,11 @@ Here I have tried to create a website with a minimal design requested by the cli
 | Bugs | Solutions |
 | ----------- | ----------- |
 | When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue on the local repository. |  
-| | Text |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
+| When testing the HTML files in the w3 validator, I received errors regarding bad values due to spaces in the "src" attributes of the images.| I have fixed these errors by renaming the images of the case. |
+|When testing the HTML files in the w3 validator, I received errors regarding the presence of a button element in the head.  | I have fixed this by moving the button element to the body. |
+| When testing the HTML files in the w3 validator, I received errors because of some obsolete attributes such as "frameborder", "scrolling", "marginheight" and, "marginwidth" in the iframe element. | I have fixed this issue by removing them from the html file and compensating the desired effect with CSS. |
+| When testing the HTML files in the w3 validator, I received errors regarding the double presence of a single ID in the same HTML file and that happened to be the reason for the carousel box not functioning appropriately. The issue was using the same ID for two different elements. | I have fixed this by giving a unique ID name to the elements. |
+
 
 ## Deployment
 
