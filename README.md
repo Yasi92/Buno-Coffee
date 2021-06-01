@@ -12,7 +12,6 @@ Later, the page will be linked to the Google.map and redirects the visitors to t
 The website is aimed at existing and potential customers, especially passers-by who have become aware of the new café but are not yet confident enough to enter the store. Visiting the site should encourage them to try it out and at the same time keep the existing customers up to date with any changes.
 
 ## UX
----
 
 My goal to create this website is twofold, educational and commercial and I have tried to meet most expectations in both aspects.
 Here I have tried to create a website with a minimal design requested by the client, yet keep it efficient and rich in terms of content and material.

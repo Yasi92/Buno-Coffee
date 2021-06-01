@@ -7,6 +7,12 @@
     border: 0;
 }
 
+
+html{
+    min-width: fit-content;
+}
+
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
