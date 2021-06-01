@@ -250,7 +250,10 @@ Here I have tried to create a website with a minimal design requested by the cli
 - This is a developer friendly tool to locate the overflows and was used throughout the process.
 ## Testing
 
-- When testing the published website noticed that the scroll-back-to-top button does not appear after scrolling the pages down while this was not an issue on the local repository.
+### Validation
+
+- [W3C Markup Validation](https://validator.w3.org/#validate_by_uri) was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and at the end, they have all passed with no errors.
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the code in my style.css file.
 
 | Bugs | Solutions |
 | ----------- | ----------- |
@@ -260,6 +263,10 @@ Here I have tried to create a website with a minimal design requested by the cli
 | When testing the HTML files in the w3 validator, I received errors because of some obsolete attributes such as "frameborder", "scrolling", "marginheight" and, "marginwidth" in the iframe element. | I have fixed this issue by removing them from the html file and compensating the desired effect with CSS. |
 | When testing the HTML files in the w3 validator, I received errors regarding the double presence of a single ID in the same HTML file and that happened to be the reason for the carousel box not functioning appropriately. The issue was using the same ID for two different elements. | I have fixed this by giving a unique ID name to the elements. |
 
+
+### Unfixed Bugs
+- In CSS validator, I have got a number of errors that I have left unfixed because of the fact that they caused by browser compatibility issues relating to the external CDNs' link.
+- In Markup Validation Service, I have disregarded 1 warning regarding considering using h2-h6 elements in the main section in each page, since the heading elements were put separately in the child elements inside each section for semantic reasons and not directly in the section area.
 
 ## Deployment
 
@@ -281,6 +288,11 @@ This is used to make changes to the project code.
 3. Type git clone, and then paste the URL you copied from the remote repository.
 
 `$ git clone https://github.com/Yasi92/Buno-coffee-project.git`
+
+### Author 
+I had initially started the project with a local username. I forgot to log in with my Github username for the author. Hence, my initial contributions were not counted by Github.
+
+
 
 
 ## Credits
