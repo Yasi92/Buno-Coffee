@@ -7,7 +7,7 @@
 This is a website for Buno Coffee Amsterdam. A brand new cafe in the south of Amsterdam run by my partner and me.
 The purpose of creating this website is twofold, educational and commercial.
 From a commercial point of view, this website is intendend to provide visitors with basic and essential information about the shop spiced up with some relevant eye-catching images.   
-This website has 3 linked pages that categorize relevant material. Here the user will get to know various information starting from the products and quality, menu and prices, opening hours and location, and moreover, their attention will be drawn to some eye-catching and enticing images.   
+This website has 3 linked pages and an internal linked section that categorize relevant material. Here the user will get to know various information starting from the products and quality, menu and prices, opening hours and location, and moreover, their attention will be drawn to some eye-catching and enticing images.   
 Later, the page will be linked to the Google.map and redirects the visitors to the website.
 The website is aimed at existing and potential customers, especially passers-by who have become aware of the new café but are not yet confident enough to enter the store. Visiting the site should encourage them to try it out and at the same time keep the existing customers up to date with any changes.
 
@@ -123,6 +123,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 * The landing page image and text     
     * The landing area, grabs the user's attention by scaling up the landing page image and giving a brief introduction about the business.
     * A small portion of the next section of the page is intentionally displayed to arouse the visitors' curiosity to scroll down.
+    *  The two columns will be displayed in separate levels on Ipad and mobile devices for responsiveness reasons.
 
 
 
@@ -131,6 +132,8 @@ Here I have tried to create a website with a minimal design requested by the cli
      * The focus of this section is to convince visitors that this place has high quality and a wide variety of products.
      * The image of a bowl in this section is meant to catch the user's attention and arouse their curiosity.
      * The underlined menu link in this section provides an easy shortcut path to the menu page.
+     * The two columns will be displayed in separate levels on Ipad and mobile devices for responsiveness reasons.
+  
     
 
 
@@ -138,12 +141,14 @@ Here I have tried to create a website with a minimal design requested by the cli
 * The section "Our Cozy Place"
      * This section is intended to inform visitors about the space and the possibility of holding private or special events.
      * The images are displayed in a carousel container.
+     * The two columns will be displayed in separate levels on Ipad and mobile devices for responsiveness reasons.
 
 
 
 ![Gift card image](wireframes/screenshots/gift-card-img.png)
 * The section "Gift card"     
      * This is the part where the user learns about the gift card service and also gets to see a module of the two sides of the gift card by simply sliding through the carousel container.
+     * The two columns will be displayed in separate levels on Ipad and mobile devices for responsiveness reasons.
 
 
 
@@ -159,6 +164,7 @@ Here I have tried to create a website with a minimal design requested by the cli
      * The corresponding icons are added to each of the contact paths, not only for design reaons, but also for a better UX experience and quick access.
      * Each of the contact links opens in a new tab to allow easy navigation for the user.
      * The Google map in this section is embeded for users to quickly and easily get directions to the location.
+     * The two columns will be displayed in separate levels on Ipad and mobile devices for responsiveness reasons.
 
 
 
@@ -172,6 +178,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 ![menu](wireframes/screenshots/menu.png)
 * Menu page 
    * The menu page lists the product names, prices, and an expansion of the ingredients of each item.
+   * Each table will be displayed on a separate level on Ipad and mobile devices for responsiveness reasons.
 
 
 
@@ -179,6 +186,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 * Gallery
     * The gallery is an important part of the website, as it is meant to draw users' attention to the place and the products.
     * Each image in the gallery can be enlarged by clicking on it and is then automatically displayed in a carousel container in sequence.
+    * Every image will be displayed on a separate level on mobile devices for responsiveness reasons.
 
 
 
@@ -254,6 +262,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 
 - [W3C Markup Validation](https://validator.w3.org/#validate_by_uri) was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and at the end, they have all passed with no errors.
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the code in my style.css file.
+- The website has been tested on the Lighthouse feature and required actions have been taken to improve the functionality of the website as much as possible and as far as related to HTML and CSS.
 
 | Bugs | Solutions |
 | ----------- | ----------- |
@@ -262,11 +271,17 @@ Here I have tried to create a website with a minimal design requested by the cli
 |When testing the HTML files in the w3 validator, I received errors regarding the presence of a button element in the head.  | I have fixed this by moving the button element to the body. |
 | When testing the HTML files in the w3 validator, I received errors because of some obsolete attributes such as "frameborder", "scrolling", "marginheight" and, "marginwidth" in the iframe element. | I have fixed this issue by removing them from the html file and compensating the desired effect with CSS. |
 | When testing the HTML files in the w3 validator, I received errors regarding the double presence of a single ID in the same HTML file and that happened to be the reason for the carousel box not functioning appropriately. The issue was using the same ID for two different elements. | I have fixed this by giving a unique ID name to the elements. |
-
-
+| I have received a warning from the lighthouse feature asking to consider a title for the iframe element as screen reader users rely on frame titles to describe the contents of frames. | A title has been added to the element. |
+|  I have received a warning from the lighthouse feature asking to consider using a "rel=noopener" attribute for any external links to improve performance and prevent security vulnerabilities.| The intended attribute has been added to all external links. |
+| I have received a warning from the lighthouse feature asking to consider using meta element with unique descriptions and keywords in every page to optimize the search engine machine  | This element has been added to every page separately |
 ### Unfixed Bugs
 - In CSS validator, I have got a number of errors that I have left unfixed because of the fact that they caused by browser compatibility issues relating to the external CDNs' link.
 - In Markup Validation Service, I have disregarded 1 warning regarding considering using h2-h6 elements in the main section in each page, since the heading elements were put separately in the child elements inside each section for semantic reasons and not directly in the section area.
+
+### Known issues
+- In the "About our products" section, the two columns won't line up in iPad Pro and similar-size devices. I know that the overflow of the text area occurs due to the large text area, but due to the importance of the content, I prefer to keep the same amount of text.
+In fact, the importance of content has surpassed the importance of ideal design.
+![Image of overflow](wireframes/screenshots/Ipad-pro-homepage.png)
 
 ## Deployment
 
