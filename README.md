@@ -79,27 +79,31 @@ Here I have tried to create a website with a minimal design requested by the cli
 [Wireframes.pdf](wireframes/Wireframes.pdf)
 
 1. Desktop
-- [Home](wireframes/desktop/Desktop_Home.pdf)
-- [Menu](wireframes/desktop/Desktop_Menu.pdf)
-- [Gallery](wireframes/desktop/Desktop_Gallery.pdf)
+![Desktop Mockups](wireframes/desktop/Desktop.png)
+- [Home.pdf](wireframes/desktop/Desktop_Home.pdf)
+- [Menu.pdf](wireframes/desktop/Desktop_Menu.pdf)
+- [Gallery.pdf](wireframes/desktop/Desktop_Gallery.pdf)
 
 2. Ipad
-- [Home](wireframes/ipad/Ipad_Home.pdf)
-- [Menu](wireframes/ipad/Ipad_Menu.pdf)
-- [Gallery](wireframes/ipad/Ipad_Gallery.pdf)
+![Ipad Mockups](wireframes/ipad/Ipad.png)
+- [Home.pdf](wireframes/ipad/Ipad_Home.pdf)
+- [Menu.pdf](wireframes/ipad/Ipad_Menu.pdf)
+- [Gallery.pdf](wireframes/ipad/Ipad_Gallery.pdf)
 
  
 3. Mobile 
-- [Home](wireframes/mobile/Mobile_Home.pdf)
-- [Menu](wireframes/mobile/Mobile_Menu.pdf)
-- [Gallery](wireframes/mobile/Mobile_Gallery.pdf)
+![Mobile Mockups](wireframes/mobile/Mobile.png)
+- [Home.pdf](wireframes/mobile/Mobile_Home.pdf)
+- [Menu.pdf](wireframes/mobile/Mobile_Menu.pdf)
+- [Gallery.pdf](wireframes/mobile/Mobile_Gallery.pdf)
 ## Features
 
 ### Existing Features
 
 
 * Design in Depth
-     * The overall color theme of the website is inspired by the store's interior design, and an effort has been made to keep the color theme neutral and yet warm.
+     * The overall color theme of the website is inspired by the store's interior design, and an effort has been made to keep the color theme neutral yet warm and, slightly greenish.
+     ![color theme](wireframes/screenshots/color.theme.png)
 
      * The font families used in this project are:
           * Roboto for the body text and other elements.
@@ -251,7 +255,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 
 | Bugs | Solutions |
 | ----------- | ----------- |
-| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue on the local repository. |  
+| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue in the local repository. |  I have fixed this by placing the button in the top of the page, above all other elements.
 | When testing the HTML files in the w3 validator, I received errors regarding bad values due to spaces in the "src" attributes of the images.| I have fixed these errors by renaming the images of the case. |
 |When testing the HTML files in the w3 validator, I received errors regarding the presence of a button element in the head.  | I have fixed this by moving the button element to the body. |
 | When testing the HTML files in the w3 validator, I received errors because of some obsolete attributes such as "frameborder", "scrolling", "marginheight" and, "marginwidth" in the iframe element. | I have fixed this issue by removing them from the html file and compensating the desired effect with CSS. |
