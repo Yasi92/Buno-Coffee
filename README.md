@@ -2,7 +2,7 @@
 
 ![Responsive Design](wireframes/screenshots/responsive-design.png)
 
-<!-- buno coffee's website in action (here place the link)-->
+[Buno Coffee Website In Action](https://yasi92.github.io/Buno-coffee-project/)
 
 This is a website for Buno Coffee Amsterdam. A brand new cafe in the south of Amsterdam run by my partner and me.
 The purpose of creating this website is twofold, educational and commercial.
@@ -114,6 +114,7 @@ Here I have tried to create a website with a minimal design requested by the cli
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Menu and Gallery page and is identical in each page to allow for easy navigation.
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
     * The navigation bar collapses from medium screen sizes to a hamburger icon, which unfolds to a navigation drawer when clicked.
+    * Clicking on the logo returns users to the home page as they would expect.
 
 
 
@@ -128,7 +129,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 
 
 ![About our product image ](wireframes/screenshots/about-us.png)
-* The section "About our product" 
+* The section "About our Products" 
      * The focus of this section is to convince visitors that this place has high quality and a wide variety of products.
      * The image of a bowl in this section is meant to catch the user's attention and arouse their curiosity.
      * The underlined menu link in this section provides an easy shortcut path to the menu page.
@@ -183,7 +184,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 
 
 ![Gallery](wireframes/screenshots/gallery.png)
-* Gallery
+* Gallery page
     * The gallery is an important part of the website, as it is meant to draw users' attention to the place and the products.
     * Each image in the gallery can be enlarged by clicking on it and is then automatically displayed in a carousel container in sequence.
     * Every image will be displayed on a separate level on mobile devices for responsiveness reasons.
@@ -263,11 +264,13 @@ Testing information can be found in a separate [TESTING.md file](/TESTING.md)
 ### Github
 1. Log into Github and locate the relevant repository.
 2. Click on the settings buttons on the menu.
-3. Scrolling down to the "Github pages".
+3. Scroll down to the "Github pages".
 4. Click on the link "Check it out here".
-5. Change the branch from "none" to "main".
+5. Change the branch from "none" to "main/master".
 6. Click on the "save" button.
 7. It might take a couple of minutes to retrieve the link to the published website in a green box.
+8. Add the link of the website to the "About" section of the repository and include a short description to your project.
+9. Click "Save Changes" and the link will be availbale in the About section of the repository.
 
 
 ### Local Clone
@@ -309,6 +312,7 @@ I had initially started the project with a local username. I forgot to log in wi
 - Code Institute's Slack community was a great help every step of the way during the project.
 - My mentor Gurjot Singh.
 - My web developer friend Monica Andreoli for her great feedback and help when I ran into problems.
+- I have learned more in detail about how to complete my README from [Anna Gilhespy's project](https://github.com/AJGreaves/portrait-artist), provided in the Code Institute's Slack community as a README template.
  
 
 
