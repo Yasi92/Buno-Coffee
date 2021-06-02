@@ -155,6 +155,7 @@ Each of these possible paths is achievable by simply navigating through the navi
 ###  Menu page 
  - Navigate to the "Menu" page from a desktop.
  - Make sure the spacing around the rows, tables, and items is applied correspondingly.
+     - When viewing the "Menu" page on a mobile device, noticed that the padding of the rows do not match the padding of the rows on the "Home" page. This has been fixed by adjusting the x-axis padding.
  - Reduce the width of the window to confirm that each table lays on a block level.
 
 
