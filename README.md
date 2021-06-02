@@ -257,7 +257,7 @@ Here I have tried to create a website with a minimal design requested by the cli
 19. [Unicorn Revealer Extention](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
 - This is a developer friendly tool to locate the overflows and was used throughout the process.
 ## Testing
-Testing information can be found in a separate [TESTING.md file](TESTING.md)
+Testing information can be found in a separate [TESTING.md file](/TESTING.md)
 ## Deployment
 
 ### Github

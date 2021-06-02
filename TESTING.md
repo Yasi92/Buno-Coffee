@@ -1,7 +1,7 @@
 # Buno Coffee Website - Testing in detils
 
 [Buno Coffee Website In Action]()            
-[Main README.md file](README.md)
+[Main README.md file](/README.md)
 
 ## Validation
 
