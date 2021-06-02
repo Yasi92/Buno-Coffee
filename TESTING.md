@@ -13,15 +13,15 @@
 
 
 | Bugs | Solutions |            
-
-| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue in the local repository. |  I have fixed this by placing the button at the top of the page, above all other elements.
-| When testing the HTML files in the w3 validator, I received errors regarding bad values due to spaces in the "src" attributes of the images.| I have fixed these errors by renaming the images of the case. |
-|When testing the HTML files in the w3 validator, I received errors regarding the presence of a button element in the head.  | I have fixed this by moving the button element to the body. |
-| When testing the HTML files in the w3 validator, I received errors because of some obsolete attributes such as "frameborder", "scrolling", "marginheight" and, "marginwidth" in the iframe element. | I have fixed this issue by removing them from the HTML file and compensating the desired effect with CSS. |
-| When testing the HTML files in the w3 validator, I received errors regarding the double presence of a single ID in the same HTML file and that happened to be the reason for the carousel box not functioning appropriately. The issue was using the same ID for two different elements. | I have fixed this by giving a unique ID name to the elements. |
-| I have received a warning from the lighthouse asking to consider a title for the iframe element as screen reader users rely on frame titles to describe the contents of frames. | A title has been added to the element. |
-|  I have received a warning from the lighthouse asking to consider using a "rel=noopener" attribute for any external links to improve performance and prevent security vulnerabilities.| The intended attribute has been added to all external links. |
-| I have received a warning from the lighthouse asking to consider using meta element with unique descriptions and keywords in every page to optimize the search engine machine | This element has been added to every page separately |                                   
+| ----------- | ----------- |
+| When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the pages, while this was not an issue in the local repository. | I have fixed this by placing the button at the top of the page, above all other elements.|
+| When testing the HTML files in the w3 validator, I received errors regarding bad values due to spaces in the "src" attributes of the images.| I have fixed these errors by renaming the images of the case.|
+|When testing the HTML files in the w3 validator, I received errors regarding the presence of a button element in the head. | I have fixed this by moving the button element to the body.|
+| When testing the HTML files in the w3 validator, I received errors because of some obsolete attributes such as "frameborder", "scrolling", "marginheight" and, "marginwidth" in the iframe element. | I have fixed this issue by removing them from the HTML file and compensating the desired effect with CSS.|
+| When testing the HTML files in the w3 validator, I received errors regarding the double presence of a single ID in the same HTML file and that happened to be the reason for the carousel box not functioning appropriately. | The issue was using the same ID for two different elements. | I have fixed this by giving a unique ID name to the elements.|
+| I have received a warning from the lighthouse asking to consider a title for the iframe element as screen reader users rely on frame titles to describe the contents of frames. | A title has been added to the element.|
+| I have received a warning from the lighthouse asking to consider using a "rel=noopener" attribute for any external links to improve performance and prevent security vulnerabilities.| The intended attribute has been added to all external links.|
+| I have received a warning from the lighthouse asking to consider using meta element with unique descriptions and keywords in every page to optimize the search engine machine | This element has been added to every page separately|                                   
 
 
 ## Unfixed Bugs
@@ -45,7 +45,7 @@ The potential common paths through the website:
 - Home > Menu > Gallery
 - Home > Gallery
 - Home > Gallery > Contact
-- Home > Contact
+- Home > Contact                
 
 Each of these possible paths is achievable by simply navigating through the navigation bar and a menu link shortcut on the "Home" page.
 ### Testing client stories from UX section of [README.md](/README.md)
