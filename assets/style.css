@@ -467,20 +467,32 @@ footer {
     h3 {
         font-weight: 500;
     }
+
     .navbar-brand h2 {
         font-size: calc(1.1rem + 1vmin);
     }
+
     .navbar-nav li:first-child {
         padding-top: 2rem;
     }
+
     .container-fluid {
         padding: 0;
         margin: 0;
     }
+
     p {
         font-size: 1rem;
     }
+
     #photo {
         column-count: 1;
     }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 1.5rem;
+    }
+
+
 }
