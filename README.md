@@ -1,4 +1,6 @@
-# Buno Coffee Website
+# Maryam Abdolbeigi
+
+## Buno Coffee Website
 
 ![Responsive Design](README-assets/screenshots/responsive-design.png)
 
@@ -87,7 +89,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 2. Ipad
 ![Ipad Mockups](README-assets/ipad/Ipad.png)
 - [Home.pdf](README-assets/ipad/Ipad_Home.pdf)
-- [Menu.pdf](README-assets/ipad/Ipad_Menu.pdf-
+- [Menu.pdf](README-assets/ipad/Ipad_Menu.pdf)
 - [Gallery.pdf](README-assets/ipad/Ipad_Gallery.pdf)
 
  
@@ -294,8 +296,6 @@ This is used to make changes to the project code.
 
 ### Author 
 I had initially started the project with a local username. I forgot to log in with my Github username for the author. Hence, my initial contributions were not counted by Github.
-
-
 
 
 ## Credits
