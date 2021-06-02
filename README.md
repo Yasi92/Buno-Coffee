@@ -46,7 +46,8 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 - Providing users with the intended type of information for which they visited the site.
 - A good experience of UX.
 - Easily navigating between pages and different parts of the site.
-- Providing users with simple, understandable and, categorized data.    
+- Providing users with simple, understandable and, categorized data.   
+- The website is quite intuitive and easy to work with.
 
 
 
