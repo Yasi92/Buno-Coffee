@@ -4,7 +4,7 @@
 
 [Buno Coffee Website In Action](https://yasi92.github.io/Buno-coffee-project/)
 
-This is a website for Buno Coffee Amsterdam. A brand new cafe in the west of Amsterdam run by my partner and me.         
+This is a website for Buno Coffee Amsterdam. A brand new cafe in the south of Amsterdam run by my partner and me.         
 The purpose of creating this website is twofold, educational and commercial.     
 From a commercial point of view, this website is intended to provide visitors with basic and essential information about the shop spiced up with some relevant eye-catching images.   
 This website has 3 linked pages and an internal linked section that categorize relevant material. Here the user will get to know various information starting from the products and quality, menu and prices, opening hours and location, and moreover, their attention will be drawn to some eye-catching and enticing images.   

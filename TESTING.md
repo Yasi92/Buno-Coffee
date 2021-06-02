@@ -52,39 +52,39 @@ Each of these possible paths is achievable by simply navigating through the navi
 
 1. As a new visitor, I would like to get some general information and an introduction to the business.
 
-      * No matter what page the user lands on, they can navigate to the "Home" page and achieve their goal.
+      - No matter what page the user lands on, they can navigate to the "Home" page and achieve their goal.
 
 
 2. As a new visitor, I would like to know about the menu items and the prices.
-     I. The user lands on the "Home" page and can navigate to the "menu" page by clicking on the menu link from the navigation bar or by the menu link shortcut in the "About our products" section on the "Home" page.
-     II. The user lands directly on the "menu" page.
-     III. The user lands on the "Gallery" page and navigates to the "menu" page through the navigation bar.
+      - The user lands on the "Home" page and can navigate to the "menu" page by clicking on the menu link from the navigation bar or by the menu link shortcut in the "About our products" section on the "Home" page.
+      - The user lands directly on the "menu" page.
+      - The user lands on the "Gallery" page and navigates to the "menu" page through the navigation bar.
 
 
 3. As a potential customer, I would like to check out the gallery and see some photos of the place and the products.
-     I. The user lands on the "Home" page and can navigate to the "Gallery" page by clicking on the "Gallery" link from the navigation bar.
-     II. The user lands on the "menu" page and can navigate to the "Gallery" page by clicking on the "Gallery" link from the navigation bar.
-     III. The user lands directly on the "Gallery" page.
+      - The user lands on the "Home" page and can navigate to the "Gallery" page by clicking on the "Gallery" link from the navigation bar.
+      - The user lands on the "menu" page and can navigate to the "Gallery" page by clicking on the "Gallery" link from the navigation bar.
+      - The user lands directly on the "Gallery" page.
 
 4. As an interested visitor, I would like to know about the opening hours and get directions to the place.
-     I. The user lands on the "Home" page and after scrolling down the "Home" page they will see the opening hours and contact info section.
-     II. The user lands on the "menu" page and can navigate either to the contact section on the "Home" page by clicking on the contact link from the navigation bar, or navigate to the "Home" page and scroll down the page to reach the intended section.
-     III. The user lands on the "Gallery" page and can either navigate to the contact section on the "Home" page by clicking on the contact link from the navigation bar or navigate to the "Home" page and scroll down the page to reach the intended section.
+      - The user lands on the "Home" page and after scrolling down the "Home" page they will see the opening hours and contact info section.
+      - The user lands on the "menu" page and can navigate either to the contact section on the "Home" page by clicking on the contact link from the navigation bar, or navigate to the "Home" page and scroll down the page to reach the intended section.
+      - The user lands on the "Gallery" page and can either navigate to the contact section on the "Home" page by clicking on the contact link from the navigation bar or navigate to the "Home" page and scroll down the page to reach the intended section.
 
 
 5. As an interested visitor, I would like to know whether I can reserve the site for an event.
-     I. The user lands on the "Home" page and after scrolling down the "Home" page they will find their expected information about booking the place and contact information.
-     II. The user lands on the "menu" page and can navigate to the "Home" page by clicking on the "Home" link from the navigation bar and after scrolling down the "Home" page they will find their intended information about reserving the place and contact information.
-     III. The user lands on the "Gallery" page and can navigate to the "Home" page by clicking on the "Home" link from the navigation bar and after scrolling down the "Home" page they will find their intended information about reserving the place and contact information.
+      - The user lands on the "Home" page and after scrolling down the "Home" page they will find their expected information about booking the place and contact information.
+      - The user lands on the "menu" page and can navigate to the "Home" page by clicking on the "Home" link from the navigation bar and after scrolling down the "Home" page they will find their intended information about reserving the place and contact information.
+      - The user lands on the "Gallery" page and can navigate to the "Home" page by clicking on the "Home" link from the navigation bar and after scrolling down the "Home" page they will find their intended information about reserving the place and contact information.
 
 6. As a returning visitor, I would like to know about the latest updates in the store and the menu.
-     I. The user lands on the "Home" page and finds the latest changes corresponding to each section on the "Home" page.
-     II. The user lands on the "menu" page and finds all the updates on the menu card.
-     III. The user lands on the "Gallery" page and finds the latest photos of the products and place.
-     IV. No matter what page the user lands on they can always navigate to the intended page through the navigation bar on the top of every page.
+      - The user lands on the "Home" page and finds the latest changes corresponding to each section on the "Home" page.
+      - The user lands on the "menu" page and finds all the updates on the menu card.
+      - The user lands on the "Gallery" page and finds the latest photos of the products and place.
+      - No matter what page the user lands on they can always navigate to the intended page through the navigation bar on the top of every page.
 
 7. As a returning visitor, I would like to get in touch with the place and order in advance so that I can pick up my order at a specific time.
-    I. No matter what page the user lands on, they can click on the contact link from the navigation bar and, click on the telephone icon.
+     - No matter what page the user lands on, they can click on the contact link from the navigation bar and, click on the telephone icon.
      
 
 
