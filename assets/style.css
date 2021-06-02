@@ -102,11 +102,7 @@ body {
 }
 
 .navbar-nav li:hover,
-.navbar-nav li:focus,
 .navbar-nav li:active,
-.btn-lg:hover,
-.btn-lg:active,
-.btn-lg:focus,
 .menu-link:hover,
 .menu-link:active,
 .menu-link:focus {
@@ -174,8 +170,8 @@ a {
 a:hover {
     text-decoration: none;
     color: #1a1a16;
-    ;
 }
+
 
 p {
     font-weight: 300;
@@ -340,7 +336,7 @@ img.w-100:hover {
 }
 
 .table-sm th {
-    padding: .3rem .3rem .3rem .8rem;
+    padding: .5rem .3rem .5rem .8rem;
 }
 
 .table-sm th>i {
@@ -379,6 +375,13 @@ th[scope=col]>p>small {
 
 .table {
     margin-bottom: 0;
+}
+
+
+.table thead th {
+    border-bottom: 2px solid #acaa86;
+    vertical-align: middle;
+    
 }
 
 

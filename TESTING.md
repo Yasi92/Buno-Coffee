@@ -8,7 +8,7 @@
 - [W3C Markup Validation](https://validator.w3.org/#validate_by_uri) was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and, in the end, they have all passed with no errors.
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the code in my style.css file.
 - The website has been tested with the Lighthouse for each page separately and on both desktop and mobile devices and, required actions have been taken to improve the functionality of the website as much as possible and as far as related to HTML and CSS.
-![Lighthouse result](wireframes/screenshots/Lighthouse.png)
+![Lighthouse result](README-assets/screenshots/Lighthouse.png)
                                   
 
 
@@ -27,14 +27,14 @@
 ## Unfixed Bugs
 
 - In Markup Validation Service, I have disregarded 1 warning regarding considering using h2-h6 elements in the main section on each page, since the heading elements were put separately in the child elements inside each section for semantic reasons and not directly in the section area.
-![W3 HTML Validator](wireframes/screenshots/Screenshot.html.validator.png)
+![W3 HTML Validator](README-assets/screenshots/Screenshot.html.validator.png)
 - When testing the CSS file in the w3 validator, I have received a number of warnings and errors from the CSS validator which according to the tutor Fatima from the Code Institute, they are caused by browser compatibility issues related to the external links such as bootstrap. This was not the case when I manually copied and pasted the entire CSS file in the validator.
-![W3 CSS Validator](wireframes/screenshots/Screenshot.css.validator.png)
+![W3 CSS Validator](README-assets/screenshots/Screenshot.css.validator.png)
 
 ## Known issues
 - In the "About our products" section, the two columns won't line up in iPad Pro and similar-size devices. I know that the overflow of the text area occurs due to the large text area, but due to the importance of the content, I prefer to keep the same amount of text.
 In fact, the importance of content has surpassed the importance of ideal design.
-![Image of overflow](wireframes/screenshots/Ipad-pro-homepage.png)
+![Image of overflow](README-assets/screenshots/Ipad-pro-homepage.png)
 
 
 ## Client stories testing:

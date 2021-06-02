@@ -1,6 +1,6 @@
 # Buno Coffee Website
 
-![Responsive Design](wireframes/screenshots/responsive-design.png)
+![Responsive Design](README-assets/screenshots/responsive-design.png)
 
 [Buno Coffee Website In Action](https://yasi92.github.io/Buno-coffee-project/)
 
@@ -75,41 +75,40 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 ### Wireframe Mockups:
-[Wireframes.pdf](wireframes/Wireframes.pdf)
+[Wireframes.pdf](README-assets/Wireframes.pdf)
 
 1. Desktop
-![Desktop Mockups](wireframes/desktop/Desktop.png)
-- [Home.pdf](wireframes/desktop/Desktop_Home.pdf)
-- [Menu.pdf](wireframes/desktop/Desktop_Menu.pdf)
-- [Gallery.pdf](wireframes/desktop/Desktop_Gallery.pdf)
+![Desktop Mockups](README-assets/desktop/Desktop.png)
+- [Home.pdf](README-assets/desktop/Desktop_Home.pdf)
+- [Menu.pdf](README-assets/desktop/Desktop_Menu.pdf)
+- [Gallery.pdf](README-assets/desktop/Desktop_Gallery.pdf)
 
 2. Ipad
-![Ipad Mockups](wireframes/ipad/Ipad.png)
-- [Home.pdf](wireframes/ipad/Ipad_Home.pdf)
-- [Menu.pdf](wireframes/ipad/Ipad_Menu.pdf)
-- [Gallery.pdf](wireframes/ipad/Ipad_Gallery.pdf)
+![Ipad Mockups](README-assets/ipad/Ipad.png)
+- [Home.pdf](README-assets/ipad/Ipad_Home.pdf)
+- [Menu.pdf](README-assets/ipad/Ipad_Menu.pdf-
+- [Gallery.pdf](README-assets/ipad/Ipad_Gallery.pdf)
 
  
 3. Mobile 
-![Mobile Mockups](wireframes/mobile/Mobile.png)
-- [Home.pdf](wireframes/mobile/Mobile_Home.pdf)
-- [Menu.pdf](wireframes/mobile/Mobile_Menu.pdf)
-- [Gallery.pdf](wireframes/mobile/Mobile_Gallery.pdf)
-## Features
-
+![Mobile Mockups](README-assets/mobile/Mobile.png)
+- [Home.pdf](README-assets/mobile/Mobile_Home.pdf)
+- [Menu.pdf](README-assets/mobile/Mobile_Menu.pdf)
+- [Gallery.pdf](README-assets/mobile/Mobile_Gallery.pdf)
+## Features-
 ### Existing Features
 
 
 * #### Design in Depth
      * The overall color theme of the website is inspired by the store's interior design, and an effort has been made to keep the color theme neutral yet warm and, slightly greenish.
-     ![color theme](wireframes/screenshots/color.theme.png)
+     ![color theme](README-assets/screenshots/color.theme.png)
 
      * The font families used in this project are:
           * Roboto for the body text and other elements.
           * Lato for the headlines and logo.
           * Sans-serif for the fallback font.
 
-![navigation bar](wireframes/screenshots/Nav-bar.png)
+![navigation bar](README-assets/screenshots/Nav-bar.png)
 *   #### Navigation Bar     
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Menu and, Gallery page and is identical on each page to allow for easy navigation.
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the back button.
@@ -120,7 +119,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
                         
 
-![landing page image and text ](wireframes/screenshots/landing-page-img.png)
+![landing page image and text ](README-assets/screenshots/landing-page-img.png)
 *  #### The landing page area   
     * The landing area, grabs the user's attention by scaling up the landing page image and giving a brief introduction about the business.
     * A small portion of the next section of the page is intentionally displayed to arouse the visitors' curiosity to scroll down.
@@ -128,7 +127,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 
-![About our product image ](wireframes/screenshots/about-us.png)
+![About our product image ](README-assets/screenshots/about-us.png)
 * #### The section "About our Products" 
      * The focus of this section is to convince visitors that this place has high quality and a wide variety of products.
      * The image of a bowl in this section is meant to catch the user's attention and witness the quality the text is referring to.
@@ -138,7 +137,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
     
 
 
-![Our Cozy Place image](wireframes/screenshots/place-img.png)
+![Our Cozy Place image](README-assets/screenshots/place-img.png)
 *  #### The section "Our Cozy Place"
      * This section is intended to inform visitors about the space and the possibility of holding private or special events.
      * The images are displayed in a carousel container.
@@ -146,20 +145,20 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 
-![Gift card image](wireframes/screenshots/gift-card-img.png)
+![Gift card image](README-assets/screenshots/gift-card-img.png)
 * #### The section "Gift card"     
      * This is the part where the user learns about the gift card service and also gets to see a module of the two sides of the gift card by simply sliding through the carousel container.
      * The two columns will be displayed in block levels on Ipad and mobile devices for responsiveness reasons.
 
 
 
-![Opening Hours](wireframes/screenshots/opening-hours.png)
+![Opening Hours](README-assets/screenshots/opening-hours.png)
 * #### The section "Opening Hours"
      * This area informs the user about the opening days and hours of the shop.   
 
 
 
-![contact information](wireframes/screenshots/contact-info.png)
+![contact information](README-assets/screenshots/contact-info.png)
 * #### The section "contact information"    
      * This section provides users with the contact information of the cafe.
      * The corresponding icons are added to each of the contact paths, not only for design reasons, but also for a better UX experience and quick access.
@@ -169,21 +168,21 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 
-![footer](wireframes/screenshots/footer.png)
+![footer](README-assets/screenshots/footer.png)
 * #### The footer
      * Footer has been included in all three pages.
      * As the entire content of the page was originally created by the Bunocoffee team, the copyright is included in the footer to protect the copyright.
 
 
 
-![menu](wireframes/screenshots/menu.png)
+![menu](README-assets/screenshots/menu.png)
 * #### Menu page 
    * The menu page lists the product names, prices, and an expansion of the ingredients of each item.
    * Each table will be displayed on a block level on Ipad and mobile devices for responsiveness reasons.
 
 
 
-![Gallery](wireframes/screenshots/gallery.png)
+![Gallery](README-assets/screenshots/gallery.png)
 * #### Gallery page
     * The gallery is an important part of the website, as it is meant to draw users' attention to the place and the products.
     * Each image in the gallery can be enlarged in modal by clicking on it and is then automatically displayed within a carousel container in sequence.
@@ -191,7 +190,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 
-![back-to-top button](wireframes/screenshots/back-to-top-button.jpeg)
+![back-to-top button](README-assets/screenshots/back-to-top-button.jpeg)
 * #### Sticky back-to-top button
     * After 1000 px of scrolling the page down, a sticky back-to-top button appears at the bottom right of the window to easily navigate to the top page without having to scroll all the way back up.
     * This feature is especially useful on mobile devices, as it prevents the user from having to scroll all the way back to the top of the page.
