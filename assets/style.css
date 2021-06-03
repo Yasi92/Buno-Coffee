@@ -492,6 +492,7 @@ footer {
     .navbar-toggler {
         position: absolute;
         right: 1.5rem;
+        top: .3125rem;
     }
 
 
