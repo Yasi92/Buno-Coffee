@@ -375,6 +375,8 @@ th[scope=col]>p>small {
 
 .table {
     margin-bottom: 0;
+    background-color: #e7e6db;
+    min-height:46.5rem ;
 }
 
 
