@@ -158,6 +158,10 @@ button :visited {
     width: 100%;
 }
 
+hr {
+    width: 70%;
+}
+
 
 /* ------------------------------------------------------------------------txt & headings & links */
 
@@ -318,7 +322,7 @@ img.w-100:hover {
 /* --------------------------------------------------------------------------------table*/
 
 .thead-bg {
-    background-color: #acaa86;
+    background-color: #a1ac97;
 }
 
 .table th[scope=col] {
@@ -349,7 +353,7 @@ img.w-100:hover {
 
 .table th,
 .table td {
-    border-top: 1px dotted #acaa86;
+    border-top: 1px dotted #a1ac97;
 }
 
 th[scope=col]~th[scope=col] {
@@ -375,13 +379,14 @@ th[scope=col]>p>small {
 
 .table {
     margin-bottom: 0;
-    background-color: #e7e6db;
+    /* background-color:#eaf4e7; */
     min-height:46.5rem ;
+    box-shadow: 0px 1px 6px #e2f2eb;
 }
 
 
 .table thead th {
-    border-bottom: 2px solid #acaa86;
+    border-bottom: 2px solid #a1ac97;
     vertical-align: middle;
     
 }
@@ -459,6 +464,10 @@ footer {
     }
     #photo {
         column-count: 2;
+    }
+
+    hr {
+        width: 100%;
     }
 }
 
