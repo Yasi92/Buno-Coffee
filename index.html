@@ -237,7 +237,7 @@
     </section>
     <footer class="footer">
         <div class="container">
-            <span>&copy; Copyright 2021 Bunocoffee</span>
+            <span>&copy; Copyright <span id="crnt-year"></span> Bunocoffee</span>
         </div>
     </footer>
     <!-- the scroll to top button is learned from (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top)  -->
@@ -268,10 +268,14 @@
             return Math.abs(age_dt.getUTCFullYear() - 1970);
         }
 
+        const currentYear = new Date().getUTCFullYear();
+
         // defines the age of Alireza
         document.getElementById("age").innerHTML = calculate_age(new Date(1984, 07, 26));
         // defines the years of expreience
         document.getElementById("year").innerHTML = calculate_age(new Date(2007, 01, 01));
+
+        document.getElementById("crnt-year").innerHTML = currentYear;
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

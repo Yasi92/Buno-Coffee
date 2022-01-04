@@ -747,7 +747,7 @@
     </section>
     <footer class="footer">
         <div class="container">
-            <span>&copy; Copyright 2021 Bunocoffee</span>
+            <span>&copy; Copyright <span id="crnt-year"></span> Bunocoffee</span>
         </div>
     </footer>
     <script>
@@ -772,6 +772,8 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+        const currentYear = new Date().getUTCFullYear();
+        document.getElementById("crnt-year").innerHTML = currentYear;
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
