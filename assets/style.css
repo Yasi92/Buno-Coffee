@@ -177,6 +177,11 @@ a:hover {
 }
 
 
+a.takeaway-links{
+    color: teal;
+    border-bottom: 1px dotted teal;
+}
+
 p {
     font-weight: 300;
     font-weight: 300;
