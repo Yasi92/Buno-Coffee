@@ -119,7 +119,9 @@ button :visited {
 }
 
 .active--nav {
-    border-bottom: 2px solid #1a1a16;
+    font-size: calc(1.2rem + 0.2vmin);
+    color: #262625;
+    font-weight: bold;
 }
 
 
@@ -332,7 +334,7 @@ img.w-100:hover {
 /* --------------------------------------------------------------------------------table*/
 
 .thead-bg {
-    background-color: #a1ac97;
+    background-color: #d3a46b;
 }
 
 .table th[scope=col] {
@@ -343,6 +345,10 @@ img.w-100:hover {
     width: 10%;
     justify-content: center;
     margin-right: 0;
+}
+
+.table td p{
+    font-weight: bold;
 }
 
 .table-sm td {
@@ -396,7 +402,7 @@ th[scope=col]>p>small {
 
 
 .table thead th {
-    border-bottom: 2px solid #a1ac97;
+    border-bottom: 1px solid #c799612c;
     vertical-align: middle;
     
 }
