@@ -124,6 +124,10 @@ button :visited {
     font-weight: bold;
 }
 
+.fas .fa-bars{
+    color: #000;
+}
+
 
 /* -------------------------------------------------------------------------- containers & Rows & cols */
 
