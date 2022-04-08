@@ -125,9 +125,18 @@ button :visited {
 }
 
 .fas .fa-bars{
-    color: #000;
+    color: #000 !important;
 }
 
+button > i.fas .fa-bars{
+    color: #000 !important;
+
+}
+
+button.navbar-toggler{
+    color: #000 !important;
+    
+}
 
 /* -------------------------------------------------------------------------- containers & Rows & cols */
 
