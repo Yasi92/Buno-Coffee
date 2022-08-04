@@ -347,7 +347,7 @@ img.w-100:hover {
 /* --------------------------------------------------------------------------------table*/
 
 .thead-bg {
-    background-color: #d3a46b;
+    background-color: #365d76;
 }
 
 .table th[scope=col] {
@@ -374,6 +374,7 @@ img.w-100:hover {
 
 .table-sm th>i {
     padding: .3rem .5rem .3rem 0;
+    color: #fff !important;
 }
 
 .table td>p {
@@ -398,6 +399,7 @@ th[scope=col]>p {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 400;
+    color: #fff !important;
 }
 
 th[scope=col]>p>small {
