@@ -374,11 +374,12 @@ img.w-100:hover {
 
 .table-sm th>i {
     padding: .3rem .5rem .3rem 0;
-    color: #fff !important;
+    color: #ebe9d1 !important;
 }
 
 .table td>p {
     text-align: right;
+    color: #1c3a4e;
 }
 
 .table th,
@@ -390,6 +391,10 @@ th[scope=col]~th[scope=col] {
     width: 10%;
 }
 
+th[scope=col]~th[scope=col] > small{
+    color: #ebe9d1;
+}
+
 th>p {
     text-transform: capitalize;
     font-weight: 500;
@@ -399,7 +404,8 @@ th[scope=col]>p {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 400;
-    color: #fff !important;
+    color: #ebe9d1 !important;
+    letter-spacing: .2em;
 }
 
 th[scope=col]>p>small {
@@ -428,6 +434,10 @@ table small{
     font-style: italic;
 }
 
+
+#menu-items div> table > tbody > tr > th > p{
+    color: #1c3a4e;
+}
 /* ---------------------------------------------------------------------------footer*/
 
 footer {
