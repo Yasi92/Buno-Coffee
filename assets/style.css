@@ -34,6 +34,9 @@ body {
     background-color: #505045;
 }
 
+/* ----------------------------------------------------------------------------------------colors */
+
+
 
 /* -------------------------------------------------------------------------------------logo & Navbar */
 
@@ -138,6 +141,35 @@ button.navbar-toggler{
 
 }
 
+.submit-btn{
+    background-color: green;
+    color: #fff;
+}
+
+.submit-btn:hover{
+    background-color:rgba(0, 128, 0, .9);
+    color: #fff;
+}
+
+.next-button{
+    background-color: #1c3a4e;
+    color: #ebe9d1;
+}
+
+.next-button:hover{
+    background-color: rgba(28, 58, 78, .9);
+    color: #ebe9d1;
+}
+
+
+.form-page {
+    display: none;
+}
+
+.form-page.active {
+    display: block;
+}
+
 /* -------------------------------------------------------------------------- containers & Rows & cols */
 
 .container-fluid {
@@ -229,6 +261,15 @@ h4 {
     font-family: 'Lato', sans-serif;
 }
 
+h5 {
+    font-size: calc(1rem + 0.7vmin);
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #1a1a16;
+    font-family: 'Lato', sans-serif;
+}
+
 #contact-links {
     font-size: calc(.9rem + 0.4vw);
     font-weight: 400;
@@ -272,6 +313,10 @@ button.close {
     background-color: rgb(7, 7, 7);
 }
 
+button.close.close-alert{
+    background-color: transparent;
+}
+
 button.close:hover {
     background-color: white;
     color: rgb(7, 7, 7);
@@ -284,6 +329,23 @@ img.w-100:hover {
 .carousel-item>img:hover {
     opacity: 1;
 }
+
+/* styles.css */
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.grid-item {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+} */
 
 
 /* ------------------------------------------------------------------------Animation */
@@ -344,7 +406,7 @@ img.w-100:hover {
 
 .ul-hours .list-group-item {
     background-color: #D0CEB5;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
 }
 
 
@@ -467,11 +529,61 @@ table small{
 
 footer {
     background-color: #D0CEB5;
-    margin-top: 5rem;
+    margin-top: 4rem;
     text-align: center;
     padding: 1rem 0;
+}
+/* ----------------------------------------------------------------------new cards */
+
+.letter-spacing{
+    letter-spacing: .1rem;
+}
+
+
+.background-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#background-image {
+    background-image: url(../assets/images/IMG_6332.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 28rem; /* Set the desired height */
+    position: relative;
+}
+
+#background-image-amstel {
+    background-image: url(./images/amstel-outside.jpg);
+    background-size: cover;
+    background-position: top right;
+    height: 28rem; /* Set the desired height */
+    position: relative;
 
 }
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px; /* Add padding to give space for your text */
+    background: linear-gradient(to bottom, rgba(208, 206, 181, 1) 0%, rgba(208, 206, 181, .9) 100%);
+
+    /* Adjust the gradient values to control the darkness and fade */
+}
+
+.text-overlay p {
+    color: #000; /* Set the color for your light text */
+    font-size: 20px; /* Set the desired text size */
+
+}
+
+
+#hoofdorp-div, #amstel-div{
+    cursor: pointer;
+}
+
 
 
 
@@ -551,6 +663,34 @@ footer {
     hr {
         width: 100%;
     }
+
+
+    #background-image-amstel, #background-image {
+        height: 25rem; /* Set the desired height */
+        background-position: center;
+    }
+
+    .text-overlay {
+        padding: 0; /* Add padding to give space for your text */
+
+        /* Adjust the gradient values to control the darkness and fade */
+    }
+
+    .text-overlay p {
+        font-size: 16px; /* Set the desired text size */
+    }
+
+
+    .container-fluid-cards,
+    .container-fluid-cards .row,
+    .container-fluid-cards #hoofdorp-div,
+    .container-fluid-cards #amstel-div {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 
@@ -587,27 +727,36 @@ footer {
         right: 1.5rem;
         top: .3125rem;
     }
+    .location-name{
+        font-size: 1.5rem;
+    }
 
+
+
+    #background-image-amstel, #background-image {
+        height: 15rem; /* Set the desired height */
+      }
+
+    .text-overlay {
+        padding: 0; /* Add padding to give space for your text */
+
+        /* Adjust the gradient values to control the darkness and fade */
+      }
+
+      .text-overlay p {
+        font-size: 16px; /* Set the desired text size */
+
+      }
+
+
+    .container-fluid-cards,
+    .container-fluid-cards .row,
+    .container-fluid-cards #hoofdorp-div,
+    .container-fluid-cards #amstel-div {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 }
-
-.center-div {
-    border: 5px white solid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 7px;
-    z-index: 33;
-
-  }
-
-  .img-blur{
-    background-image:url(./gallery-images/IMG_6332.jpeg);
-    filter: blur(10px);
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-
-  }
