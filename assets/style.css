@@ -532,6 +532,7 @@ footer {
     margin-top: 4rem;
     text-align: center;
     padding: 1rem 0;
+
 }
 /* ----------------------------------------------------------------------new cards */
 
@@ -548,10 +549,11 @@ footer {
 #background-image {
     background-image: url(../assets/images/IMG_6332.png);
     background-size: cover;
-    background-position: bottom center;
+    background-position: top center;
     height: 28rem; /* Set the desired height */
     position: relative;
 }
+
 
 #background-image-amstel {
     background-image: url(./images/amstel-outside.jpg);
@@ -585,6 +587,12 @@ footer {
 }
 
 
+.footer.footer-index{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
 
 /* ------------------------------------------------------------------------@media query medium*/
@@ -653,6 +661,8 @@ footer {
     .footer {
         margin-top: 3rem;
     }
+
+
     .contact-info {
         text-align: center;
     }
@@ -758,5 +768,10 @@ footer {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .footer.footer-index{
+        position:unset;
+    }
+
 
 }

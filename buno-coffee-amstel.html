@@ -193,10 +193,10 @@
                     </div>
                     <div class="order-12 col-12 px-2 px-md-4 px-lg-0 order-lg-1 col-lg-5">
                         <h3>Our cozy place!</h3>
-                        <p>This is a great and cozy place to meet your loved ones and friends for a delicious meal or
-                            coffee. We also accept arrangements for special events. Get in touch with us for your
-                            private events.
-                            Still, prefer the outdoors? Take a seat on our cozy street terrace and enjoy outside.
+                        <p>
+                            We're your friendly neighborhood cafe, just a stone's throw away from Amstel station.
+                            Need a quick caffeine fix?
+                            Swing by and grab your favorite coffee, and you won't miss your train.
                         </p>
                     </div>
             </article>
@@ -276,21 +276,8 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-        // calculates the full age
-        function calculate_age(dob) {
-            var diff_ms = Date.now() - dob.getTime();
-            var age_dt = new Date(diff_ms);
-
-            return Math.abs(age_dt.getUTCFullYear() - 1969);
-        }
 
         const currentYear = new Date().getUTCFullYear();
-
-        // defines the age of Alireza
-        document.getElementById("age").innerHTML = calculate_age(new Date(1984, 7, 26));
-        // defines the years of expreience
-        document.getElementById("year").innerHTML = calculate_age(new Date(2008, 1, 1));
-
         document.getElementById("crnt-year").innerHTML = currentYear;
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

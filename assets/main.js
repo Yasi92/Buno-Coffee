@@ -65,10 +65,7 @@ the footer to the bottom of the page regardless of the size of content.*/
 setInterval(function(){
     var header = document.querySelector("header").offsetHeight;
     var footer = document.querySelector("footer").offsetHeight;
-    document.getElementById("menu-item").style.minHeight = "calc( 100vh - " + header + "px" + " - " + footer + "px" + " - 3rem )";
-
-        // This fixes the position of the back-to-top button on top of the footer
-    document.getElementById("myBtn").style.bottom = footer + "px ";
+    document.getElementById("main-content").style.minHeight = "calc( 100vh - " + header + "px" + " - " + footer + "px" + " - 3rem )";
 
 }, 500);
 

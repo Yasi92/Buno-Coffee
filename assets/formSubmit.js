@@ -4,7 +4,6 @@ var confirmationMessageDiv = document.getElementById("confirmation-message-div")
 
 function sendContactForm(contactForm) {
 
-
     emailjs.send("service_f8whq4n", "template_qga2n4j", {
             "full-name" : contactForm.fullName.value,
             "nationality" : contactForm.nationality.value,
@@ -26,7 +25,7 @@ function sendContactForm(contactForm) {
                 console.log("SUCCESS", response);
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
-                
+
                 confirmationMessage.classList.remove('d-none');
                 confirmationMessageDiv.classList.remove('d-none');
 
@@ -75,3 +74,11 @@ function showPage(pageId) {
     // Show the selected page
     document.getElementById(pageId).classList.add("active");
 }
+
+
+setInterval(function(){
+    var header = document.querySelector("header").offsetHeight;
+    var footer = document.querySelector("footer").offsetHeight;
+    document.getElementById("main-content").style.minHeight = "calc( 100vh - " + header + "px" + " - " + footer + "px" + " - 3rem )";
+
+}, 500);

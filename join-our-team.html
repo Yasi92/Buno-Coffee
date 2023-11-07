@@ -64,7 +64,7 @@
         </nav>
     </header>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="main-content">
         <div class="row px-3 px-md-4 justify-content-around align-items-center mt-md-5">
             <div class="col-12 d-none" id="confirmation-message-div">
                 <div class="d-none alert alert-success text-center alert-dismissible" role="alert"
@@ -148,6 +148,7 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="work-permit">Work Permit</label>
+                                <!-- <input type="checkbox" name="workPermit" id="work-permit" required/> -->
                                 <select name="workPermit" id="work-permit" class="form-control" required>
                                     <option value=""></option>
                                     <option value="Yes">Yes</option>
@@ -158,10 +159,10 @@
                                 <label for="experience">Years of Relevant Experience</label>
                                 <select name="experience" id="experience" class="form-control" required>
                                     <option value=""></option>
+                                    <option value="No experience">No experience</option>
                                     <option value="Less than 1 year">Less than 1 year</option>
-                                    <option value="1-2 years">1-2 years</option>
-                                    <option value="3-5 years">3-5 years</option>
-                                    <option value="More than 5 years">More than 5 years</option>
+                                    <option value="1-3 years">1-3 years</option>
+                                    <option value="More than 5 years">More than 3 years</option>
                                 </select>
                             </div>
                         </div>

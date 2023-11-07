@@ -276,20 +276,8 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-        // calculates the full age
-        function calculate_age(dob) {
-            var diff_ms = Date.now() - dob.getTime();
-            var age_dt = new Date(diff_ms);
-
-            return Math.abs(age_dt.getUTCFullYear() - 1969);
-        }
 
         const currentYear = new Date().getUTCFullYear();
-
-        // defines the age of Alireza
-        document.getElementById("age").innerHTML = calculate_age(new Date(1984, 7, 26));
-        // defines the years of expreience
-        document.getElementById("year").innerHTML = calculate_age(new Date(2008, 1, 1));
 
         document.getElementById("crnt-year").innerHTML = currentYear;
     </script>
