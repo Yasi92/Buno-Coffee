@@ -6,10 +6,10 @@
 
 [Buno Coffee Website In Action](https://yasi92.github.io/Buno-coffee-project/)
 
-This is a website for Buno Coffee Amsterdam. A brand new cafe in the south of Amsterdam run by my partner and me.         
-The purpose of creating this website is twofold, educational and commercial.     
-From a commercial point of view, this website is intended to provide visitors with basic and essential information about the shop spiced up with some relevant eye-catching images.   
-This website has 3 linked pages and an internal linked section that categorize relevant material. Here the user will get to know various information starting from the products and quality, menu and prices, opening hours and location, and moreover, their attention will be drawn to some eye-catching and enticing images.   
+This is a website for Buno Coffee Amsterdam. A brand new cafe in the south of Amsterdam run by my partner and me.
+The purpose of creating this website is twofold, educational and commercial.
+From a commercial point of view, this website is intended to provide visitors with basic and essential information about the shop spiced up with some relevant eye-catching images.
+This website has 3 linked pages and an internal linked section that categorize relevant material. Here the user will get to know various information starting from the products and quality, menu and prices, opening hours and location, and moreover, their attention will be drawn to some eye-catching and enticing images.
 Later, the page will be linked to Google map and redirects the visitors to the website.
 The website is aimed at existing and potential customers, especially passers-by who have become aware of the new café but are not yet confident enough to enter the store. Visiting the site should encourage them to try it out and at the same time keep the existing customers up to date with any changes.
 
@@ -25,7 +25,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 - Convince visitors that this is a high-quality cafe.
 - Convince visitors to check out the menu card.
 - Inform visitors about the types of services the business offers, such as hosting private events and gatherings.
-- Grab visitors' attention with eye-catching and enticing images so that they will consider this place the next time they think of a good place to go out.    
+- Grab visitors' attention with eye-catching and enticing images so that they will consider this place the next time they think of a good place to go out.
 
 ###  The customer objectives of this website are:
 
@@ -33,14 +33,14 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 - Looking for a quality, comfortable place for breakfast, lunch, or daily coffee.
 - Clear, easy-to-find prices.
 - Looking for a place to hold special or private events.
-- Searching for some pictures of the products the store offers.    
+- Searching for some pictures of the products the store offers.
 
 
 ### The Ideal customer for this website:
 
 - Is English speaking.
 - Lives in Amsterdam specially in the neighborhood.
-- Is a fan of cafe and hospitality overall.    
+- Is a fan of cafe and hospitality overall.
 
 ### This project helps users achieve their goals when visiting the website by:
 
@@ -48,7 +48,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 - Providing users with the intended type of information for which they visited the site.
 - A good experience of UX.
 - Easily navigating between pages and different parts of the site.
-- Providing users with simple, understandable and, categorized data.   
+- Providing users with simple, understandable and, categorized data.
 - The website is quite intuitive and easy to work with.
 
 
@@ -92,8 +92,8 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 - [Menu.pdf](README-assets/ipad/Ipad_Menu.pdf)
 - [Gallery.pdf](README-assets/ipad/Ipad_Gallery.pdf)
 
- 
-3. Mobile 
+
+3. Mobile
 ![Mobile Mockups](README-assets/mobile/Mobile.png)
 - [Home.pdf](README-assets/mobile/Mobile_Home.pdf)
 - [Menu.pdf](README-assets/mobile/Mobile_Menu.pdf)
@@ -112,7 +112,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
           * Sans-serif for the fallback font.
 
 ![navigation bar](README-assets/screenshots/Nav-bar.png)
-*   #### Navigation Bar     
+*   #### Navigation Bar
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Menu and, Gallery page and is identical on each page to allow for easy navigation.
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the back button.
     * The navigation bar collapses from medium screen sizes to a hamburger icon, which unfolds to a navigation drawer when clicked.
@@ -120,10 +120,10 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 
-                        
+
 
 ![landing page image and text ](README-assets/screenshots/landing-page-img.png)
-*  #### The landing page area   
+*  #### The landing page area
     * The landing area, grabs the user's attention by scaling up the landing page image and giving a brief introduction about the business.
     * A small portion of the next section of the page is intentionally displayed to arouse the visitors' curiosity to scroll down.
     *  The two columns will be displayed in block levels on Ipad and mobile devices for responsiveness reasons.
@@ -131,13 +131,13 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 ![About our product image ](README-assets/screenshots/about-us.png)
-* #### The section "About our Products" 
+* #### The section "About our Products"
      * The focus of this section is to convince visitors that this place has high quality and a wide variety of products.
      * The image of a bowl in this section is meant to catch the user's attention and witness the quality the text is referring to.
      * The underlined menu link in this section provides an easy shortcut path to the menu page.
      * The two columns will be displayed in block levels on Ipad and mobile devices for responsiveness reasons.
-  
-    
+
+
 
 
 ![Our Cozy Place image](README-assets/screenshots/place-img.png)
@@ -149,7 +149,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 ![Gift card image](README-assets/screenshots/gift-card-img.png)
-* #### The section "Gift card"     
+* #### The section "Gift card"
      * This is the part where the user learns about the gift card service and also gets to see a module of the two sides of the gift card by simply sliding through the carousel container.
      * The two columns will be displayed in block levels on Ipad and mobile devices for responsiveness reasons.
 
@@ -157,12 +157,12 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 ![Opening Hours](README-assets/screenshots/opening-hours.png)
 * #### The section "Opening Hours"
-     * This area informs the user about the opening days and hours of the shop.   
+     * This area informs the user about the opening days and hours of the shop.
 
 
 
 ![contact information](README-assets/screenshots/contact-info.png)
-* #### The section "contact information"    
+* #### The section "contact information"
      * This section provides users with the contact information of the cafe.
      * The corresponding icons are added to each of the contact paths, not only for design reasons, but also for a better UX experience and quick access.
      * Each of the contact links opens in a new tab to allow easy navigation for the user.
@@ -179,7 +179,7 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 ![menu](README-assets/screenshots/menu.png)
-* #### Menu page 
+* #### Menu page
    * The menu page lists the product names, prices, and an expansion of the ingredients of each item.
    * Each table will be displayed on a block level on Ipad and mobile devices for responsiveness reasons.
 
@@ -221,41 +221,41 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 ### Frameworks, Libraries, CDN's, resources:
 
 
-1. [Hover.CSS](http://ianlunn.github.io/Hover/) 
+1. [Hover.CSS](http://ianlunn.github.io/Hover/)
 - This was used for the hover effect on the navigation bar items.
-2. [Animate.css](https://animate.style/) - 
+2. [Animate.css](https://animate.style/) -
 - This was used for the animation effect on the headings.
-3. [Bootstrapv4.5.3](https://getbootstrap.com/) - 
+3. [Bootstrapv4.5.3](https://getbootstrap.com/) -
 - This was used for the main layout of the 3 pages and modal gallery.
-4. [w3schools](https://www.w3schools/) - 
+4. [w3schools](https://www.w3schools/) -
 - This was used for documentation for most troubles and errors.
-5. [CSS-TRICKS](https://css-tricks.com/) - 
+5. [CSS-TRICKS](https://css-tricks.com/) -
 - This was used for the carousel containers.
-6. [Animista.net](https://animista.net/) - 
+6. [Animista.net](https://animista.net/) -
 - This was used for the animation effect on the landing page image.
-7. [Balsamiq](https://balsamiq.com/wireframes/) - 
-- This was used to create mockups during the design process.
-8. [GitHub](https://github.com/) - 
+7. [Balsamiq](https://balsamiq.com/wireframes/) -
+- This was used to create mockups during the design process!
+8. [GitHub](https://github.com/) -
 - Github was used as a remote repository and to deploy the website.
-9. [Git](https://git-scm.com/) - 
+9. [Git](https://git-scm.com/) -
 - Git was used as version control to keep track of files and push them to the remote repository.
-10. [FontAwesome](https://fontawesome.com/start) - 
+10. [FontAwesome](https://fontawesome.com/start) -
 - Font Awesome was used throughout the website to add icons.
-11. [Google Fonts](https://fonts.google.com/) - 
+11. [Google Fonts](https://fonts.google.com/) -
 - Google fonts were used to import the font styles in the website.
-12. [Chrome Developer Tools:](https://developer.chrome.com/docs/devtools/) - 
+12. [Chrome Developer Tools:](https://developer.chrome.com/docs/devtools/) -
 - This was used for debugging and for checking the responsiveness of the website.
-13. [Ami Responsive](http://ami.responsivedesign.is/) - 
+13. [Ami Responsive](http://ami.responsivedesign.is/) -
 - This was used to test the website responsiveness.
-14. [HTMLValidationService](https://validator.w3.org/) - 
+14. [HTMLValidationService](https://validator.w3.org/) -
 - This was used to check the markup validity of the web documents.
-15. [HTMLFormatter](https://www.freeformatter.com/html-formatter.html) - 
+15. [HTMLFormatter](https://www.freeformatter.com/html-formatter.html) -
 - This was used to check and fix the indentations.
-16. [CSSValidationService](https://validator.w3.org/) - 
+16. [CSSValidationService](https://validator.w3.org/) -
 - This was used to check the markup validity of the web documents.
-17. [compressor.io/](https://compressor.io/) - 
+17. [compressor.io/](https://compressor.io/) -
 - This was used to compress the used images on the website.
-18. [https://mycolor.space/](https://mycolor.space/) - 
+18. [https://mycolor.space/](https://mycolor.space/) -
 - This was used to choose the color theme used in the website.
 19. [Unicorn Revealer Extention](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
 - This is a developer-friendly tool to locate the overflows and was used throughout the process.
@@ -294,7 +294,7 @@ This is used to make changes to the project code.
 
 `$ git clone https://github.com/Yasi92/Buno-coffee-project.git`
 
-### Author 
+### Author
 I had initially started the project with a local username. I forgot to log in with my Github username for the author. Hence, my initial contributions were not counted by Github.
 
 
@@ -323,7 +323,3 @@ I had initially started the project with a local username. I forgot to log in wi
 - My mentor Gurjot Singh.
 - My web developer friend Monica Andreoli for her great feedback and help when I ran into problems.
 - I have learned more in detail about how to complete my README from [Anna Gilhespy's project](https://github.com/AJGreaves/portrait-artist), provided in the Code Institute's Slack community as a README template.
- 
-
-
-
