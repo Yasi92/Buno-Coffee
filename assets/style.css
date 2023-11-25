@@ -322,9 +322,9 @@ button.close:hover {
     color: rgb(7, 7, 7);
 }
 
-img.w-100:hover {
+/* img.w-100:hover {
     opacity: 0.60;
-}
+} */
 
 .carousel-item>img:hover {
     opacity: 1;
@@ -556,7 +556,7 @@ footer {
 
 
 #background-image-amstel {
-    background-image: url(./images/amstel-outside.jpg);
+    background-image: url(./gallery-images/amstel-outisde-full-view.jpeg);
     background-size: cover;
     background-position: top right;
     height: 28rem; /* Set the desired height */
