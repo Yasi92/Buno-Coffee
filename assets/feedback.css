@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f7f7f2;
+    color: #18352e;
+    font: 17px/1.6 system-ui, sans-serif;
+}
+
+main.fd {
+    /* max-width: 90vw; */
+    margin: auto;
+    /* padding: 40px 0 0 0; */
+}
+
+header {
+    /* display: flex; */
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    /* border-bottom: 1px solid #cdd4ce; */
+    padding-bottom: 22px;
+}
+
+.logo {
+    font: bold 44px/1 Georgia, serif;
+    letter-spacing: -2px;
+}
+
+#main-content {
+    bottom: 0 !important;
+}
+
+
+.branch {
+    font-size: 14px;
+}
+
+h1 {
+    font: normal clamp(36px, 8vw, 49px)/1.12 Georgia, serif;
+    margin: 45px 0 14px;
+}
+
+p {
+    /* margin: 0 0 24px; */
+    color: #4a6159;
+}
+
+.options {
+    display: grid;
+    gap: 14px;
+    margin: 30px 0;
+}
+
+button,
+.option {
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.bg-boldGreen>.option {
+    background-color: #eaf1eb;
+
+}
+
+.option {
+    border: 1px solid #9caea3;
+    background: white;
+    padding: 22px;
+    text-align: left;
+    border-radius: 12px;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.option:hover {
+    background: #eaf1eb;
+    border-color: #244c3d;
+}
+
+.option strong {
+    display: block;
+    font-size: 19px;
+}
+
+.option span {
+    display: block;
+    color: #4a6159;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+:focus-visible {
+    outline: 3px solid #da9c27;
+    outline-offset: 4px;
+}
+
+form {
+    border-top: 1px solid #cdd4ce;
+    margin-top: 30px;
+    padding-top: 24px;
+}
+
+h2 {
+    font: normal 28px Georgia, serif;
+    margin: 0 0 16px;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    margin: 20px 0 7px;
+}
+
+input,
+textarea {
+    width: 100%;
+    background: white;
+    border: 1px solid #a3b1a8;
+    border-radius: 7px;
+    padding: 12px;
+    font: inherit;
+    color: #18352e;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.send {
+    margin: 20px 0 10px;
+    background: #1b4135;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    padding: 14px 22px;
+    width: 100%;
+}
+
+.note {
+    font-size: 14px;
+}
+
+.status {
+    background: #eaf1eb;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.contact {
+    overflow-wrap: anywhere;
+    color: #1b4135;
+}
+
+footer {
+    margin-top: 36px;
+    padding-top: 20px;
+    border-top: 1px solid #cdd4ce;
+    font-size: 14px;
+    color: #4a6159;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 380px) {
+    header {
+        display: block;
+    }
+
+    .branch {
+        margin-top: 12px;
+    }
+
+    /*
+    main.fd {
+        padding: 25px 0 0 0;
+    } */
+}
