@@ -186,3 +186,22 @@ footer {
         padding: 25px 0 0 0;
     } */
 }
+
+#feedback {
+    scroll-margin-top: 24px;
+}
+
+#feedback-fields {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
+
+#feedback-fields:disabled {
+    opacity: 0.7;
+}
+
+#feedback-fields:disabled button {
+    cursor: wait;
+}
