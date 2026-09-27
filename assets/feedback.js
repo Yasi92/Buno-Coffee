@@ -38,8 +38,8 @@
         sending = true;
         fields.disabled = true;
         form.setAttribute("aria-busy", "true");
-        button.textContent = "Sendingâ€¦";
-        showStatus("Sending your messageâ€¦");
+        button.textContent = "Sending...";
+        showStatus("Sending your message...");
 
         try {
             if (!window.emailjs) throw new Error("Email service unavailable");
@@ -48,7 +48,7 @@
             form.reset();
             showStatus("Thank you! Your message has been sent to the Buno team.");
         } catch (error) {
-            showStatus("We couldnâ€™t confirm that your message was sent. Your text is still here. Please try again or email bunocoffee.63@gmail.com.");
+            showStatus("We couldn't confirm that your message was sent. Your text is still here. Please try again or email bunocoffee.63@gmail.com.");
         } finally {
             sending = false;
             fields.disabled = false;
